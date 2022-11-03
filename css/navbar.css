@@ -1,0 +1,69 @@
+*{
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.regHomrB{
+    height: 44px !important;
+}
+
+
+
+
+@media(max-width: 1087px) {
+    .sectiononeNav{
+        flex: 0 0 auto;
+        width: 35.333333%;
+    }
+    .allListNav{
+        font-size: 10px !important;
+    }
+    .sectiontwonav{
+            width: 55.666667%;
+
+    }
+    .allsectionNav{
+        justify-content: space-around;
+    }
+}
+
+
+@media(max-width : 575px){
+    .iconMobileNav{
+        visibility: visible !important;
+        font-size: 10px !important;
+    }
+    .sectiononeNav{
+        visibility: hidden !important;
+        height: 10px !important;
+        flex: 0 0 0;
+        width: 1px;
+    }
+    .allListNav{
+        font-size: 13px !important;
+    }
+    .sectiontwonav li{
+        padding-top: 1rem;
+
+    }
+    .sectiontwonav{
+        align-items: center !important;
+        width: 93.666667%;
+    }
+    .logoNavDesctop{
+        visibility: hidden !important;
+        height: 1px !important;
+        width: -1px;
+    }
+    .allsectionNav{
+        justify-content: space-around;
+    }
+    .footerAll{
+        font-size: 13px;
+    }
+}
+@media(min-width : 575px){
+    .iconMobileNav{
+        width: 1px;
+        height: 1px;
+    }
+}

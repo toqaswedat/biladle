@@ -1,0 +1,71 @@
+.footerMenu1{
+    /* line-height: 2rem !important;
+    padding-top: 2em ; */
+}
+.socialIconFooter a{
+    border-radius: 50%;
+}
+.socialIconFooter a img{
+    height: 1.8em;
+    padding: 5.5px;
+}
+.footerAll{
+    padding: 5.25rem!important;
+    line-height: 2rem !important;
+
+}
+.appstoreFooter{
+    margin-left: 2em !important;
+}
+.footercol2 ul{
+    padding: 0 !important;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible !important;
+  }
+  @media (max-width: 992px) {
+
+    .footerMenu1{
+      line-height: 16px !important;
+    }
+}
+
+@media(max-width: 575px) {
+    .footerLogo{
+        /* border: 2px solid red !important; */
+        flex: 5 0 99.666667%;
+        max-width: 99.666667%;
+    }
+    .footercol2{
+      flex: 0 0 31.666667%;
+      max-width: 27.666667%;
+
+    }
+    .footercol2 ul{
+        line-height: 2em !important;
+    }
+    .footercol1{
+      flex: 0 0 17.333333%;
+    max-width: 15.333333%;
+    }
+}
