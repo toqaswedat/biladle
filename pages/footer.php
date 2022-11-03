@@ -70,9 +70,9 @@
   
         <div class="col-2 footercol2 ">
           <h4>اتصل بنا</h4>
-          <ul class="menu p-1 list-unstyled">
-          <a  href=""><img class=" " src="../image/CAll.svg" alt="phone"></a>
-          <a href=""><img class=" "  src="../image/chat.svg" alt="chat"></a>
+          <ul class="menu p-1 list-unstyled ">
+          <a  href=""><img class=" " src="../image/CAll.svg" alt="phone"  style="margin-left: 2em; "></a>
+          <a href=""><img class="mr-3 "  src="../image/chat.svg" alt="chat"></a>
           <h4 class="mt-4 mb-4">  التواصل الاجتماعي </h4>
           <div class="bottom-social-icons social-icon socialIconFooter d-flex justify-content-between">
             <a class="linkedin bg-white" href="https://www.linkedin.com/in/biladl-legal-467b4518b"><img class=" mr-2" src="../image/linkedin.svg" alt="linkidin"></a>

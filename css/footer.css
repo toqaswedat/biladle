@@ -20,29 +20,7 @@
 .footercol2 ul{
     padding: 0 !important;
 }
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-  }
-  
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-  
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-  }
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible !important;
-  }
+
   @media (max-width: 992px) {
 
     .footerMenu1{
@@ -67,5 +45,14 @@
     .footercol1{
       flex: 0 0 17.333333%;
     max-width: 15.333333%;
+    }
+    .footerAll{
+        padding:1em !important;
+        line-height: 2rem !important;
+    }
+    footer{
+        border: 2px solid;
+        margin: 0 !important;
+
     }
 }
