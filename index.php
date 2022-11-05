@@ -215,29 +215,70 @@
 
 <section class="pt-5 pb-5 d-flex" style="background-image:url('https://magical-brown.65-108-72-55.plesk.page/assets/website/arabic/img/appwithmobilebg.svg');  background-size: cover; background-repeat: no-repeat; height:850px;;">
   <div class="col-md-3 col-sm-6 col-xs-12 justify-content-end  list-group list-unstyled pr-5 pb-5 ">
-    <Li class="text-light pb-3"><img  class='pl-3 pr-5' src="img/login.svg" />
+    <Li class="text-light pb-3"><img  class='pl-3 pr-5' src="./image/login.svg" />
     تسجيل الدخول الي بالعدل    
     </Li>
-    <Li class="text-light pb-3"><img  class='pl-3 pr-5' src="img/SEARCH.svg" />
+    <Li class="text-light pb-3"><img  class='pl-3 pr-5' src="./image/SEARCH.svg" />
     ابحث عن الخدمة التي تريدها
     </Li>
-    <Li class="text-light pb-3"><img  class='pl-3 pr-5' src="img/q.svg" />
+    <Li class="text-light pb-3"><img  class='pl-3 pr-5' src="./image/q.svg" />
     يمكنك السؤال عن أي استفسار 
     </Li>
-    <Li class="text-light pb-3"><img  class='pl-3 pr-5' src="img/news.svg" />
+    <Li class="text-light pb-3"><img  class='pl-3 pr-5' src="./image/news.svg" />
     أن تكون متابع لأخبارنا 
     </Li>
   </div>
   <div class="col-sm-6 text-left list-group align-items-center justify-content-center uploudApp">
-    <div class="row-12 ">
+    <div class="">
       <h1 class="text-light">حمل التطبيق الآن</h1>
     </div>
-    <div class="row-12 pt-5">
-    <img  class='pl-3 pr-5' src="img/appstore.svg" />
-    <img  class='pl-3 pr-5' src="img/googleplay.svg" />
+    <div class="pt-5">
+    <img  class='pl-3 pr-5' src="./image/appstore.svg" />
+    <img  class='pl-3 pr-5' src="./image/googleplay.svg" />
     </div>
     <div></div>
   </div>
 </section >
+
+<section class="pt-5 pb-5 " >
+  <h1 class="text-center custom-control"><u class="pt-2 undellineHome">أحدث</u>  المقالات </h1>
+  <div class="pt-5" >
+    <div class="col-sm-4" >    
+      <img  class='' src="img/Frame616.svg" />
+    </div>
+    <div class="col-sm-4" >    
+      <img  class='' src="img/Frame615.svg" />
+    </div>
+    <div class="col-sm-4" >    
+      <img  class='' src="img/Frame614.svg" />
+    </div>
+    </div>
+    <div class="d-flex justify-content-center">
+    <button class="col-s-12 bg-dark font-weight-bold text-light datepicker mt-5  w-25 ">عرض الكل</button>
+  </div>
+    
+</section>
+
+
+
+<section class=" pt-5 d-flex align-items-center justify-content-center">
+      <div class="col-sm-5 text-left">
+          <img  class='' src="img/Rectangle18.svg" />
+      </div>
+  <div class="col-md-6 col-sm-5 col-xs-12  ">
+      <div class="">
+        <h3 class=" ">آخر الأخبار </h3>
+        <h6 class="pt-2" >وزارة العدل</h6>
+        <p class="pt-2" ><img  class='' src="img/calendar-line.svg" />  17/3/2019</p>
+        <p class="pt-3">
+          يمكنك الدخول لمنصة وزارة العدل لمعرفة المزيد وقراءة مزيد من الأخبار.
+        </p>
+        <button class="bg-dark font-weight-bold text-light datepicker w-25 mt-2"> قراءة المزيد</button>
+      </div>
+  </div>
+
+</section>
+
+
 
 <?php include(__DIR__ . './pages/footer.php');?>
