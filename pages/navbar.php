@@ -15,12 +15,18 @@
     <!-- custom Css-->
     <link rel="stylesheet" href="../css/navbar.css" type="text/css">
     <link rel="stylesheet" href="../css/home.css" type="text/css">
+    <link rel="stylesheet" href="../css/footer.css" type="text/css">
 
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+  
     <title>Beladl</title>
 </head>
 
@@ -44,7 +50,7 @@
                     <a class="text-decoration-none text-light" href=""> <span class="border border-warning p-2">الصفحة الرئيسية</span></a>
                   </li>
                   <li>
-                    <a class="text-decoration-none text-light" href="./lawers.php">عن بالعدل</a>
+                    <a class="text-decoration-none text-light" href="./pages/lawers.php">عن بالعدل</a>
                   </li>
                   <li class="">
                     <a class="text-decoration-none text-light" href=""> خدماتنا </a>

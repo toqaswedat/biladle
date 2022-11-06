@@ -1,6 +1,8 @@
 .footerMenu1{
     /* line-height: 2rem !important;
     padding-top: 2em ; */
+    padding: 0 !important;
+    
 }
 .socialIconFooter a{
     border-radius: 50%;
