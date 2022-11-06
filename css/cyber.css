@@ -1,5 +1,42 @@
-.cyberbackground{
-    background-image: url(../image/cyberbackground.svg);
+.imgcontentcyber{
     width: 100%;
-    height: 200px;
+    height: auto;
 }
+.listcyberparag p{
+    padding-bottom: 1rem !important;
+}
+
+@media (max-width: 980px) {
+     .cybercontent{
+        flex-direction: column;
+     }
+
+     .imagesectioncyber{
+        flex: 0 0 auto;
+    width: 90.333333%;
+     }
+
+}
+@media (max-width: 980px){
+        .contentparagraphcyber {flex: 0 0 auto;
+        width: 99.333333%;}
+}
+
+@media (max-width: 420px){
+    .contentparagraphcyber{
+        flex: 0 0 auto;
+        /* width:500px; */
+    }
+}
+.listcyberparag{
+    line-height: 35px;
+
+}
+.linkcyber{
+    color: #F5CB00;
+}
+.imgparag{
+    margin-left: 15px;
+}
+
+
