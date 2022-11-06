@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="../css/navbar.css" type="text/css">
     <link rel="stylesheet" href="../css/home.css" type="text/css">
     <link rel="stylesheet" href="../css/footer.css" type="text/css">
+    <link rel="stylesheet" href="../css/cyber.css" type="text/css">
+    <link rel="stylesheet" href="../css/contactus.css" type="text/css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
