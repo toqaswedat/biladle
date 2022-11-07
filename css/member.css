@@ -1,0 +1,37 @@
+.memberShipDiv{
+    line-height: 2rem !important;
+    
+}
+.btnmember button{
+    width: 332px !important;
+    
+}
+.servicesDiv{
+    line-height: 3rem !important;
+
+}
+
+@media(max-width:692px){
+    .btnmember button{
+        width: 143px !important; 
+    }
+}
+
+@media(max-width:944px){
+
+    .imageAboutUs{
+        /* border: solid !important; */
+        flex-direction: column;
+
+    }
+    .imageAboutUs img{
+        padding: 1em 0 !important;
+    }
+    .memberShipDiv{
+        flex-direction: column;
+    }
+    .divAboutUs{
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+}
