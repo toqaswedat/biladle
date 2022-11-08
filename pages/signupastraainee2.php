@@ -17,7 +17,15 @@
         </div>
         <div>
             <img class="person " src="../image/wwimg.svg" alt=""> 
-            <span>الدولة والميلاد</span>
+            <span> البلد</span>
+        </div> 
+        <div class="imgline">
+
+        <img class="person " src="../image/line31.svg" alt="">
+        </div>
+        <div>
+        <img class="person " src="../image/graduation.svg" alt=""> 
+        <span> بيانات اضافية</span>
         </div> 
 </div>
 
@@ -29,13 +37,13 @@
 <div class="container">
   <div class="row">
     <div class="col">
-    <img class="imgg" src="../image/MEMBER.svg" alt="aa">
+    <img class="imgg" src="../image/Framesignupastraainee.svg" alt="aa">
     </div>
     <div class="col">
     <img class="imgg" src="../image/lawer2.svg" alt="aa">محامي
     </div>
     <div class="col">
-    <img class="imgg" src="../image/student.svg" alt="aa">طالب علم
+    <img class="imgg" src="../image/traineesignupastraainee.svg" alt="aa">
     </div>
   </div>
 </div>
