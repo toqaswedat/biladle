@@ -20,17 +20,17 @@
             <label for="exampleInputEmail1" class="form-label" > رقم الهاتف </label>
             <span class="spn d-flex "><img src="../image/Vectorphone.svg" alt="aa">
             <input type="text" class="form-control inputnumber" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" ادخل رقم الهاتف">
-            <img class="suide" src="../image/countrysu.svg" alt="aa"></span >
+            <img class="imgg" src="../image/countrysu.svg" alt="aa"></span >
         </div>
         <!-- email -->
         <div class="mb-3 d-flex flex-column">
             <label for="exampleInputEmail2" class="form-label" > البريد الالكتروني </label>
             <span class="spn d-flex " ><img src="../image/emailicone.svg" alt="aa">
             <input type="email" class="form-control inputemail" id="exampleInputEmail2"  placeholder="من فضلك ادخل البريد الالكتروني ">
-            
+
         </span >
             </div>
-        <!-- seleci -->
+        <!-- select -->
         <div class="mb-3 d-flex flex-column">
             <label for="exampleInputEmail3" class="form-label" > الموضوع </label>
             <span class="spn d-flex "><img src="../image/Vectorsub.svg" alt="aa">
@@ -57,7 +57,7 @@
             <div class="mb-3 d-flex flex-column">
                 <!-- file -->
             <span class="spn1 d-flex ">
-            <label for="upload-photo "><img class="suide" src="../image/fileicon.svg" alt="aa"></label>
+            <label for="upload-photo "><img class="imgg" src="../image/fileicon.svg" alt="aa"></label>
             <input type="file" name="photo" id="upload-photo" />
             </span >
             </div>
