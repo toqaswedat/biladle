@@ -6,21 +6,32 @@
     width: 332px !important;
     
 }
-.servicesDiv{
+.servicesDiv,.servicesDiv2,.servicesDiv3{
     line-height: 3rem !important;
 
+}
+
+.divServicesHow ul{
+    padding-right: 0 !important;
 }
 
 @media(max-width:692px){
     .btnmember button{
         width: 143px !important; 
     }
+    .trueAndFalseServices{
+        flex-direction: column !important;
+        flex-direction: column !important;
+    }
+    .trueAndFalseServices div{       
+        flex: 0 0 100% !important;
+        max-width: 82% !important;
+    }
 }
 
 @media(max-width:944px){
 
     .imageAboutUs{
-        /* border: solid !important; */
         flex-direction: column;
 
     }
@@ -34,4 +45,30 @@
         flex: 0 0 100% !important;
         max-width: 100% !important;
     }
+}
+
+@media(max-width:1035px){
+    .servicesDiv{
+        flex-direction: column-reverse;
+        
+    }
+    .servicesDiv div,.servicesDiv3 div{
+        flex: 0 0 100%;
+        max-width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .servicesDiv3{
+        flex-direction: column;
+    }
+    .divServicesNow{
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .divServicesNow button{
+        width: 100% !important;
+    }
+
 }
