@@ -1,5 +1,5 @@
 <?php include('navbar.php');?>
-<section class="d-flex flex-column justify-content-center align-items-center text-light" style="background-image:url('../image/coveraboutUs.svg');  background-size: cover; background-repeat: no-repeat; height:374px;">
+<section class="d-flex flex-column justify-content-center align-items-center text-light" style="background-image:url('../image/coveraboutUs.jpg');  background-size: cover; background-repeat: no-repeat; height:374px;">
 <h6>الصفحة الرئيسية >  وثائق مفيدة</h6>
 <h1>وثائق مفيدة</h1>
 </section>

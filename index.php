@@ -101,7 +101,7 @@
       </div>
   </div>
   <div class="col-5 text-right">
-    <img  class='' src="./image/Rectangle.svg" />
+    <img  class='' src="./image/Rectangle.jpg" />
   </div>
 </section>
 
