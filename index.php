@@ -2,34 +2,19 @@
 <section class="pb-5 home-section-top " style="background-image:url('https://magical-brown.65-108-72-55.plesk.page/assets/website/arabic/img/PropertyDefault.svg'); background-position: center left; background-repeat: no-repeat; background-size: 1953px 673px;"> 
 
 <div class=" d-flex align-items-center home-section-top2">
-<div class="col-3 slidertopHomePage">
-  <div class="">
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-        <!-- Wrapper for carousel items -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./image/sliderHome.svg" class="d-block w-100" alt="Slide">
-            </div>
-            <div class="carousel-item">
-                <img src="./image/sliderHome.svg" class="d-block w-100" alt="Slide">
-            </div>
-            <div class="carousel-item">
-                <img src="./image/sliderHome.svg" class="d-block w-100" alt="Slide">
-            </div>
-        </div>
-
-        <!-- Carousel controls -->
-        <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
-            <!-- <span class="carousel-control-prev-icon"></span> -->
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
-            <!-- <span class="carousel-control-next-icon"></span> -->
-        </a>
+<!-- Swiper -->
+<div class="swiper  mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./image/sliderHome.svg" alt=""></div>
+        <div class="swiper-slide"><img src="./image/sliderHome.svg" alt=""></div>
+        <div class="swiper-slide"><img src="./image/sliderHome.svg" alt=""></div>
+      
+      </div>
+      <div class="swiper-pagination"></div>
     </div>
-</div>
-</div>
 
-<div class="col-3 d-flex align-items-center justify-content-center flex-column">
+
+<div class="col-8 col-lg-3 col-md-5 d-flex align-items-center justify-content-center flex-column">
     <div class="">
       <div class="icon ">
       <img  class='' src="../image/callwithus.svg" />
@@ -53,7 +38,7 @@
     </div>
 </div>
 
-<div class="col-4 text-right givHomeSection">
+<div class="col-6 text-right givHomeSection">
     <div >
       <h1 class="">احصل معنا علي نصيحة قانونية</h1>
       <p class="pt-3">بالعدل هنا لتساعدك في الحصول علي استشارة قانونية موثوقة لحل أي  <br>مشكلة أو موقف قانوني مثل مشاكل في العمل, الأحوال الشخصية, العمل <br>ولمشاكل التجارية مثل الايجارات أو أي موقف قانوني آخر يمكن للمحامي حله.</p>
@@ -67,25 +52,25 @@
 <section class="pt-5 pb-5 ">
   <h1 class="text-center custom-control"><u class="pt-2 undellineHome">قد ي</u>همك أيضاً </h1>
   <div class="d-flex align-items-center justify-content-center pt-5 interestedYou">
-  <div class="pr-5 pl-5" >
+  <div class="pr-5 pl-5 note-card" >
     <img  class='img_home_section' src="./image/lawers.svg" />
-    <h6 class="pt-5">محامون بالعدل</h6>
+    <h6 class="">محامون بالعدل</h6>
   </div>
-  <div class="pr-5 pl-5" >
+  <div class="pr-5 pl-5  note-card" >
     <img  class='img_home_section' src="./image/crimes.svg" />
-    <h6 class="pt-5">التشهيرالسيبراني</h6>
+    <h6 class="">التشهيرالسيبراني</h6>
   </div>
-  <div class="pr-5 pl-5 " >
+  <div class="pr-5 pl-5  note-card" >
     <img  class='img_home_section' src="./image/links.svg" />
-    <h6 class="pt-5">روابط مهمة</h6>
+    <h6 class="">روابط مهمة</h6>
   </div>
-  <div class="pr-5 pl-5 " >
+  <div class="pr-5 pl-5  note-card" >
     <img  class='img_home_section' src="./image/files.svg" />
-    <h6 class="pt-5">وثائق مفيدة</h6>
+    <h6 class="">وثائق مفيدة</h6>
   </div>
-  <div class="pr-5 pl-5" >
+  <div class="pr-5 pl-5 note-card" >
     <img  class='img_home_section' src="./image/questions.svg" />
-    <h6 class="pt-5">الأسئلة الشائعة</h6>
+    <h6 class="">الأسئلة الشائعة</h6>
   </div>
   </div>
 </section>
@@ -125,16 +110,16 @@
     </div>
   </div>
   <div class=" mr-5 ml-5 pt-5 d-flex servisHomeSection" >
-    <div class="col-sm-3 " >    
+    <div class="col-sm-3 mb-2 " >    
       <img  class='' src="./image/court.svg" />
     </div>
-    <div class="col-sm-3" >    
+    <div class="col-sm-3 mb-2" >    
       <img  class='' src="./image/dept.svg" />
     </div>
-    <div class="col-sm-3" >    
+    <div class="col-sm-3 mb-2" >    
       <img  class='' src="./image/advices.svg" />
     </div>
-    <div class="col-sm-3" >    
+    <div class="col-sm-3 mb-2" >    
       <img  class='' src="./image/negotiations.svg" />
     </div>
   </div>
@@ -217,16 +202,16 @@
 
 <section class="pt-5 pb-5 d-flex DownloadAPPHome" style="background-image:url('https://magical-brown.65-108-72-55.plesk.page/assets/website/arabic/img/appwithmobilebg.svg');  background-size: cover; background-repeat: no-repeat; height:850px;;">
   <div class="text-right col-md-3 col-sm-6 justify-content-end  list-group list-unstyled pr-5 pb-5 p-5 uploudAppsection2">
-    <Li class="text-light pb-3"><img  class='pl-3 pr-5' src="./image/login.svg" />
+    <Li class="text-light pb-3 "><img  class='pl-3' src="./image/login.svg" />
     تسجيل الدخول الي بالعدل    
     </Li>
-    <Li class="text-light pb-3"><img  class='pl-3 pr-5' src="./image/SEARCH.svg" />
+    <Li class="text-light pb-3 "><img  class='pl-3' src="./image/SEARCH.svg" />
     ابحث عن الخدمة التي تريدها
     </Li>
-    <Li class="text-light pb-3"><img  class='pl-3 pr-5' src="./image/q.svg" />
+    <Li class="text-light pb-3"><img  class='pl-3' src="./image/q.svg" />
     يمكنك السؤال عن أي استفسار 
     </Li>
-    <Li class="text-light pb-3"><img  class='pl-3 pr-5' src="./image/news.svg" />
+    <Li class="text-light pb-3  "><img  class='pl-3 ' src="./image/news.svg" />
     أن تكون متابع لأخبارنا 
     </Li>
   </div>
@@ -386,7 +371,17 @@ items.forEach((el) => {
 
 
 </script>
+    <!-- Swiper JS -->
+    <script  src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
+    <!-- Initialize Swiper -->
+    <script >
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
 <?php
  include(__DIR__ . './pages/footer.php');
 ?>
