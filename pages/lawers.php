@@ -1,5 +1,5 @@
 <?php include('navbar.php');?>
-<section class="d-flex align-content-center justify-content-center flex-column" style="background-image:url('http://localhost:8000/image/coverLawers.svg'); background-position: center center;height: 404px;"> 
+<section class="d-flex align-content-center justify-content-center flex-column" style="background-image:url('../image/coveraboutUs.jpg'); background-position: center center;height: 404px;"> 
     <p class="text-light text-center">الصفحة الرئيسية > محامون بالعدل</p>
     <h1 class="text-light text-center">محامون بالعدل</h1>
 </section>
