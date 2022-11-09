@@ -3,7 +3,8 @@
     <p class="text-light text-center">الصفحة الرئيسية > محامون بالعدل</p>
     <h1 class="text-light text-center">محامون بالعدل</h1>
 </section>
-<section class="p-5">
+<section class="p-5 text-right">
+    
     <img  class='img_home_section' src="../image/lawers.svg" />
     <h4 class="pt-3">محامون بالعدل</h4>
     <div class="pt-3">
@@ -40,7 +41,7 @@
         </p>
     </div>
     <div class="pt-3">
-        <img  class='' src="../image/point05.svg" /> <b></b>السيد ياسر الحلواني
+        <img  class='' src="../image/point05.svg" /> <b> السيد ياسر الحلواني</b>
         <p class="pt-3">
             حاصل على درجة البكالوريوس في القانون من جامعة الملك عبد العزيز. الممارسات بشكل رئيسي في قانون العمل والقانون المدني والأسرة. خبرة سابقة في مجلة المدينة وشركة محمد يوسف الناغي.
         </p>

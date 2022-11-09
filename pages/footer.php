@@ -5,7 +5,7 @@
     </div>
     <div class="d-flex align-items-center justify-content-center pt-3">
       <input type="email" placeholder="ادخل البريد الالكتروني"  class="form-control border w-25"/>
-      <button class="btn  bg-dark font-weight-bold text-light rounded ">اشترك</button>
+      <button class="btn bg-dark font-weight-bold text-light rounded ">اشترك</button>
     </div>
 </section>
 
@@ -28,10 +28,10 @@
         <div class=" col-6 col-lg-2 col-md-4 col-sm-5 mt-3  ">
           <h4>روابط قد تهمك</h4>
           <ul class="menu footerMenu1 list-unstyled">
-          <li class="col pr-0"><a class="text-light text-decoration-none" href="#">عن بالعدل</a></li>
-          <li class="col pr-0"><a  class="text-light text-decoration-none" href="#">محامون بالعدل </a></li>
-          <li class="col pr-0"><a class="text-light text-decoration-none" href="#">التشهير السيبراني </a></li>
-          <li class="col pr-0"><a class="text-light text-decoration-none" href="#"> خطة الدفع </a></li>
+          <li class="col pr-0"><a class="text-light text-decoration-none" href="/pages/AboutUs.php">عن بالعدل</a></li>
+          <li class="col pr-0"><a  class="text-light text-decoration-none" href="/pages/lawers.php">محامون بالعدل </a></li>
+          <li class="col pr-0"><a class="text-light text-decoration-none" href="/pages/cyber.php">التشهير السيبراني </a></li>
+          <li class="col pr-0"><a class="text-light text-decoration-none" href="../index.php#payment_plans"> خطة الدفع </a></li>
           <li class="col pr-0"><a class="text-light text-decoration-none" href="#">الشروط والأحكام</a></li>
           <li class="col pr-0"><a class="text-light text-decoration-none" href="#">سياسة الخصوصية</a></li>
           </ul>
@@ -40,11 +40,11 @@
         <div class=" col-6 col-lg-2 col-md-4 col-sm-5 mt-3 ">
           <h4>اقرأ أيضاً</h4>
           <ul class="menu footerMenu1 list-unstyled">
-          <li class="col pr-0"><a class="text-light text-decoration-none" href="#">أخبارنا </a></li>
-          <li class="col pr-0"><a class="text-light text-decoration-none" href="#">المقالات  </a></li>
-          <li class="col pr-0"><a class="text-light text-decoration-none" href="#">وثائق مفيدة </a></li>
+          <li class="col pr-0"><a class="text-light text-decoration-none" href="/pages/news.php">أخبارنا </a></li>
+          <li class="col pr-0"><a class="text-light text-decoration-none" href="/pages/articles.php">المقالات  </a></li>
+          <li class="col pr-0"><a class="text-light text-decoration-none" href="/pages/files.php">وثائق مفيدة </a></li>
           <li class="col pr-0"><a class="text-light text-decoration-none" href="#"> روابط مهمة</a></li>
-          <li class="col pr-0"><a class="text-light text-decoration-none" href="#"> أسئلة شائعة</a></li>
+          <li class="col pr-0"><a class="text-light text-decoration-none" href="/pages/commonquestions.php"> أسئلة شائعة</a></li>
           </ul>
         </div>
   

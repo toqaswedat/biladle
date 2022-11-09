@@ -1,4 +1,4 @@
-<?php include(__DIR__ . './pages/navbar.php');?>
+<?php include(__DIR__ . '/pages/navbar.php');?>
 <section class="pb-5 home-section-top " style="background-image:url('https://magical-brown.65-108-72-55.plesk.page/assets/website/arabic/img/PropertyDefault.svg'); background-position: center left; background-repeat: no-repeat; background-size: 1953px 673px;"> 
 
 <div class=" d-flex align-items-center home-section-top2">
@@ -127,7 +127,7 @@
   </div>
 </section>
 
-<section class=" pt-5 pb-5">
+<section class=" pt-5 pb-5" id="payment_plans">
   <h1 class="text-center custom-control"><u class="pt-2 undellineHome">خطة</u> الدفع </h1>
   <p class="d-flex flex-column justify-content-center align-items-center text-center pt-5">تمنحك عضويتك حرية العيش بسلام حيث ينصحك مستشارونا القانونيون ويوجهونك<br> في جميع مسائل المعاملات القانونية اليومية والاستفادة من خدمات بالعدل.</p>
   
@@ -382,5 +382,5 @@ items.forEach((el) => {
       });
     </script>
 <?php
- include(__DIR__ . './pages/footer.php');
+  include(__DIR__ . '/pages/footer.php');
 ?>

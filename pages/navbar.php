@@ -26,6 +26,8 @@
   <link rel="stylesheet" href="../css/member.css" type="text/css">
   <link rel="stylesheet" href="../css/requestanadvice.css" type="text/css">
   <link rel="stylesheet" href="../css/signupasamember.css" type="text/css">
+  <link rel="stylesheet" href="../css/commonquestions.css" type="text/css">
+    <link rel="stylesheet" href="../css/login.css" type="text/css">
   <script src="../scripts/links.json"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -42,10 +44,10 @@
         <a class="navbar-brand" href="/"><img src="../image/logoBiladl.svg" alt=""></a>
         <a class="text-decoration-none text-light" href=""><img src="../image/SEARCHIcon.svg" alt=""></a>
         <a href="" class="text-decoration-none text-light font-weight-light border border-white px-2">EN</a>
-        <a class="text-decoration-none text-light " href="">تسجيل الدخول</a>
+        <a class="text-decoration-none text-light " href="/pages/login.php">تسجيل الدخول</a>
       </div>
       <div class="ham-search-cta">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="text-decoration-none text-light search-icon-mobile" href="#"><img src="../image/SEARCHIcon.svg" alt=""></a>
@@ -75,10 +77,10 @@
             <a class="text-decoration-none text-light nav-link" href="/pages/contactus.php">اتصل بنا</a>
           </li>
           <li>
-            <a class="text-decoration-none text-light nav-link" href="">تطبيق بالعدل </a>
+            <a class="text-decoration-none text-light nav-link" href="https://play.google.com/store/apps/details?id=com.biladl.biladil&pli=1">تطبيق بالعدل </a>
           </li>
           <li>
-            <a class="text-decoration-none text-light nav-link mob-nav-link" href="">تسجيل الدخول </a>
+            <a class="text-decoration-none text-light nav-link mob-nav-link" href="/pages/login.php">تسجيل الدخول </a>
           </li>
           <li>
             <a class="text-decoration-none text-light nav-link mob-nav-link" href="">English</a>
@@ -99,10 +101,10 @@
             <a href="" class="text-decoration-none text-light font-weight-light border border-white px-2">EN</a>
           </li>
           <li class="col-5 d-flex justify-content-center">
-            <a class="text-decoration-none text-light " href="">تسجيل الدخول</a>
+            <a class="text-decoration-none text-light " href="/pages/login.php">تسجيل الدخول</a>
           </li>
           <li class="col-4">
-            <button type="button" class="navbar-toggle bg-warning font-weight-bold datepicker w-100 rounded regHomrB"
+            <button onclick="window.location.href='/pages/login.php'" type="button" class="navbar-toggle bg-warning font-weight-bold datepicker w-100 rounded regHomrB"
               data-toggle="collapse" data-target="#navbar">
               <b> حساب جديد</b>
             </button>
