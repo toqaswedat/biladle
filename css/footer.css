@@ -4,13 +4,8 @@
     padding: 0 !important;
     
 }
-.socialIconFooter a{
-    border-radius: 50%;
-}
-.socialIconFooter a img{
-    height: 1.8em;
-    padding: 5.5px;
-}
+
+
 .footerAll{
     padding: 5.25rem!important;
     line-height: 2rem !important;
@@ -19,14 +14,46 @@
 .appstoreFooter{
     margin-left: 2em !important;
 }
-.footercol2 ul{
+/* .footercol2 ul{
     padding: 0 !important;
+} */
+
+.social-icons{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
+.social-icon{
+
+    width: 40px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.social-image{
+    width: 20px;
+    height: 20px;
+}
+
+
 
   @media (max-width: 992px) {
 
-    .footerMenu1{
-      line-height: 16px !important;
+    .p-about{
+
+        font-size: 18px;
+        line-height: 2rem;
+        
+    }
+    .footer-chunk{
+
+        flex-direction: column;
     }
 }
 
@@ -36,14 +63,10 @@
         flex: 5 0 99.666667%;
         max-width: 99.666667%;
     }
-    .footercol2{
-      flex: 0 0 31.666667%;
-      max-width: 27.666667%;
-
-    }
+/*    
     .footercol2 ul{
         line-height: 2em !important;
-    }
+    } */
     .footercol1{
       flex: 0 0 17.333333%;
     max-width: 15.333333%;
