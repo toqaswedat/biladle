@@ -13,7 +13,7 @@
 
     <section class="footer-Content p-4 bg-dark text-light footerAll text-right">
         <div class=" p-xl-1 pr-xl-5 text-right">
-        <a class="navbar-brand logo pr-xl-5" href=""><img  src="../image/logoBiladl.svg" alt=""></a>
+        <a class="navbar-brand logo pr-xl-5" href="../index.php"><img  src="../image/logoBiladl.svg" alt=""></a>
         </div>
       <div class=" p-3 d-flex flex-wrap">
 
@@ -22,7 +22,7 @@
           <br>
           <h2 class="text-warning mb-4">تطبيق بالعدل</h2>
           <a class="navbar-brand logo appstoreFooter" href=""><img   src="../image/appstore.svg" alt="app store"></a>
-          <a class="navbar-brand logo" href=""><img  src="../image/googleplay.svg" alt="google play"></a>
+          <a class="navbar-brand logo" href="https://play.google.com/store/apps/details?id=com.biladl.biladil&pli=1"><img  src="../image/googleplay.svg" alt="google play"></a>
         </div>
   
         <div class=" col-6 col-lg-2 col-md-4 col-sm-5 mt-3  ">

@@ -282,7 +282,7 @@
 
 
 <section class=" pt-5 d-flex align-items-center justify-content-center lastNewsHome">
-      <div class="col-5 ">
+      <div class="col-12  col-lg-5">
       <div class="container mt-3">
 
       <div id="mySlideshow3" class="carousel slide mb-3" data-ride="carousel">
@@ -297,13 +297,13 @@
       <!-- Slideshow -->
       <div class="carousel-inner">
       <div class="carousel-item active">
-      <img class="d-block w-100" src="./image/sliderNews.svg" alt="" height="500">
+      <img class="d-block w-100" src="./image/sliderNews.svg" alt="" >
       </div>
       <div class="carousel-item">
-      <img class="d-block w-100" src="./image/sliderNews.svg" alt="" height="500">
+      <img class="d-block w-100" src="./image/sliderNews.svg" alt="" >
       </div>
       <div class="carousel-item">
-      <img class="d-block w-100" src="./image/sliderNews.svg" alt="" height="500">
+      <img class="d-block w-100" src="./image/sliderNews.svg" alt="">
       </div>
       </div>
       <!-- Left and right controls -->
