@@ -39,7 +39,7 @@
   <nav class="navbar bg-dark navbar-dark  navbar-expand-lg text-light">
     <div class="container-fluid collapse navbar-collapse allsectionNav ">
       <div class="invisible iconMobileNav ">
-        <a class="navbar-brand" href="#"><img src="../image/logoBiladl.svg" alt=""></a>
+        <a class="navbar-brand" href="/"><img src="../image/logoBiladl.svg" alt=""></a>
         <a class="text-decoration-none text-light" href=""><img src="../image/SEARCHIcon.svg" alt=""></a>
         <a href="" class="text-decoration-none text-light font-weight-light border border-white px-2">EN</a>
         <a class="text-decoration-none text-light " href="">تسجيل الدخول</a>
@@ -51,28 +51,28 @@
       <a class="text-decoration-none text-light search-icon-mobile" href="#"><img src="../image/SEARCHIcon.svg" alt=""></a>
       </div>
  
-      <a class="navbar-brand logoNavDesctop" href="#"><img src="../image/logoBiladl.svg" alt=""></a>
+      <a class="navbar-brand logoNavDesctop" href="../index.php"><img src="../image/logoBiladl.svg" alt=""></a>
       <div class="collapse navbar-collapse justify-content-between allListNav mobile-col-reverse"
         id="collapsibleNavbar">
         <ul class="navbar-nav justify-content-between sectiontwonav mobile-fluid-links">
           <li>
-            <a class="text-decoration-none text-light nav-link" href=""> <span class="border border-warning p-2">الصفحة
+            <a class="text-decoration-none text-light nav-link" href="../index.php"> <span class="border border-warning p-2">الصفحة
                 الرئيسية</span></a>
           </li>
           <li>
-            <a class="text-decoration-none text-light nav-link" href="./pages/lawers.php">عن بالعدل</a>
+            <a class="text-decoration-none text-light nav-link" href="/pages/lawers.php">عن بالعدل</a>
           </li>
           <li class="">
-            <a class="text-decoration-none text-light nav-link" href=""> خدماتنا </a>
+            <a class="text-decoration-none text-light nav-link" href="/pages/services.php"> خدماتنا </a>
           </li>
           <li>
-            <a class="text-decoration-none text-light nav-link" href="">أخبارنا</a>
+            <a class="text-decoration-none text-light nav-link" href="/pages/news.php">أخبارنا</a>
           </li>
           <li>
-            <a class="text-decoration-none text-light nav-link" href="">المقالات</a>
+            <a class="text-decoration-none text-light nav-link" href="/pages/articles.php">المقالات</a>
           </li>
           <li>
-            <a class="text-decoration-none text-light nav-link" href="">اتصل بنا</a>
+            <a class="text-decoration-none text-light nav-link" href="/pages/contactus.php">اتصل بنا</a>
           </li>
           <li>
             <a class="text-decoration-none text-light nav-link" href="">تطبيق بالعدل </a>

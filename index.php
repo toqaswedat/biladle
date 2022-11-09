@@ -8,7 +8,6 @@
         <div class="swiper-slide"><img src="./image/sliderHome.svg" alt=""></div>
         <div class="swiper-slide"><img src="./image/sliderHome.svg" alt=""></div>
         <div class="swiper-slide"><img src="./image/sliderHome.svg" alt=""></div>
-      
       </div>
       <div class="swiper-pagination"></div>
     </div>
