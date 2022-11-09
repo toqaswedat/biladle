@@ -1,20 +1,94 @@
 *{
     font-family: 'Cairo', sans-serif !important;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .regHomrB{
-    height: 44px !important;
+   width: max-content !important;
 }
 
 
 
 
-@media(max-width: 1087px) {
-    .sectiononeNav{
+
+
+
+.search-icon-mobile{
+
+    display: none;
+}
+.mob-nav-link{
+
+display: none !important;
+}
+.mob-nav-cta{
+
+    display: none ;
+}
+
+
+@media screen and (max-width:900px) {
+    .nav-link{
+
+        font-size: 18px;
+        text-align: center;
+    }
+    .section-one{
+        display: none !important;
+    }
+    .invisible{
+
+        display: none;
+    }
+    .mobile-fluid-links{
+
+        width: 100% !important;
+        margin-top: 10px;
+        padding: 0%;
+        
+
+    }
+    .mobile-fluid-links li{
+
+        width: 100% !important;
+       
+    }
+     .search-icon-mobile{
+
+        display: block;
+     }
+     .mob-nav-cta{
+
+        display: block;
+    }
+    .mob-nav-link{
+
+        display: block !important;
+    }
+    .ham-search-cta{
+
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+    }
+    /* .mobile-col-reverse{
+
+        display: flex;
+        flex-direction: column-reverse;
+    } */
+}
+
+
+
+/* @media(max-width: 1087px) { */
+    /* .sectiononeNav{
         flex: 0 0 auto;
         width: 35.333333%;
-    }
-    .allListNav{
+    } */
+    /* .allListNav{
         font-size: 10px !important;
     }
     .sectiontwonav{
@@ -23,37 +97,24 @@
     }
     .allsectionNav{
         justify-content: space-around;
-    }
-}
+    } */
+/* } */
 
 
 @media(max-width : 575px){
-    .iconMobileNav{
-        visibility: visible !important;
-        font-size: 10px !important;
-    }
-    .sectiononeNav{
-        visibility: hidden !important;
-        height: 10px !important;
+ 
+    /* .sectiononeNav{
+     
         flex: 0 0 0;
         width: 1px;
-    }
-    .allListNav{
-        font-size: 13px !important;
-    }
+    } */
+  
     .sectiontwonav li{
         padding-top: 1rem;
 
     }
-    .sectiontwonav{
-        align-items: center !important;
-        width: 93.666667%;
-    }
-    .logoNavDesctop{
-        visibility: hidden !important;
-        height: 1px !important;
-        width: -1px;
-    }
+
+  
     .allsectionNav{
         justify-content: space-around;
     }

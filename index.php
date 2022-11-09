@@ -388,5 +388,5 @@ items.forEach((el) => {
 </script>
 
 <?php
- include(__DIR__ . './pages/footer.php');
+//  include(__DIR__ . './pages/footer.php');
 ?>
