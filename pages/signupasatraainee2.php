@@ -19,6 +19,13 @@
             <img class="person " src="../image/wwimg2.svg" alt=""> 
             <span>الدولة والميلاد</span>
         </div> 
+        <div class="imgline">
+
+            <img class="person " src="../image/Line33.svg" alt="">
+        </div>
+        <div>
+            <img class="person " src="../image/graduation.svg" alt=""> 
+        </div>
 </div>
 
 
@@ -28,14 +35,14 @@
 <!-- start grid -->
 <div class="container">
   <div class="row">
-    <div class="col">
-    <img class="imgg" src="../image/MEMBER.svg" alt="aa">
-    </div>
-    <div class="col">
+      <div class="col">
+          <img class="imgg" src="../image/nameicon.svg" alt="aa">عضو
+        </div>
+        <div class="col">
     <img class="imgg" src="../image/lawer2.svg" alt="aa">محامي
     </div>
     <div class="col">
-    <img class="imgg" src="../image/student.svg" alt="aa">طالب علم
+    <img class="imgg" src="../image/trainee.svg" alt="aa">
     </div>
   </div>
 </div>
