@@ -1,0 +1,80 @@
+.loginNav {
+  height: 120px;
+}
+.loginContentOne {
+  background-image: url('../image/loginbackground.svg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.passicontwocss {
+  border: none !important;
+}
+@media (max-width: 1294px) {
+  .loginContentOne {
+    background-repeat: repeat-y
+  }
+}
+form{
+  padding: 3rem;
+}
+@media (max-width: 800px) {
+  form {
+   padding: 5px !important; 
+  }
+}
+/* @media (max-width: 500px) {
+  .loginContentTwo {
+    width: 100px; 
+  }
+} */
+@media (max-width:360px) {
+  .loginContentTwo {
+    width: 290px; 
+  }
+}
+label {
+  text-align: right;
+}
+.logspan {
+  border: 2px solid #D8D8D8;
+  padding: 2PX;
+}
+
+.logspan img {
+  margin: 2px;
+  padding: 10px;
+  border-left: 1px solid #D8D8D8;
+}
+.emailinp {
+  height: 48px;
+  border: 1px solid #D8D8D8;
+  border-radius: 4px;
+}
+.passinp {
+  height: 48px;
+  border: 1px solid #D8D8D8;
+  border-radius: 4px;
+}
+input {
+  border: none !important;
+}
+.logbutton {
+  background-color: white;
+  color: black;
+  border-style: none;
+  size: 10px;
+  border-right: inset;
+}
+.logbutton:hover {
+  background-color: #F5CB00;
+
+}
+.ankerlogin {
+  text-decoration: none;
+  color: black;
+
+}
+.ankerlogin a:hover {
+  text-decoration: none;
+}

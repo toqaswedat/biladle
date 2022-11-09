@@ -1,5 +1,5 @@
 <?php include('navbar.php'); ?>
-<section class="covercyber d-flex align-content-center justify-content-center flex-column" style="background-image:url('../image/cyberbackground.svg'); height: 404px;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+<section class="covercyber d-flex align-content-center justify-content-center flex-column">
     <p class="coverparag text-light text-center">التشهير السيبراني > الصفحة الرئيسية</p>
     <h1 class="coverheading text-light text-center">التشهير السيبراني</h1>
 </section>

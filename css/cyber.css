@@ -38,5 +38,14 @@
 .imgparag{
     margin-left: 15px;
 }
+.covercyber{
+    background-image:url('../image/cyberbackground.svg');
+    height: 404px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
 
 
