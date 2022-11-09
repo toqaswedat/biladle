@@ -17,7 +17,7 @@
         </div>
         <div>
             <img class="person " src="../image/wwimg.svg" alt=""> 
-            <span> البلد</span>
+            <span> الدولة والميلاد</span>
         </div> 
         <div class="imgline">
 
@@ -36,14 +36,14 @@
 <!-- start grid -->
 <div class="container">
   <div class="row">
+      <div class="col">
+          <img class="imgg" src="../image/nameicon.svg" alt="aa">عضو
+        </div>
+        <div class="col">
+        <img class="imgg" src="../image/lawyer02.svg" alt="aa">
+        </div>
     <div class="col">
-    <img class="imgg" src="../image/Framesignupastraainee.svg" alt="aa">
-    </div>
-    <div class="col">
-    <img class="imgg" src="../image/lawer2.svg" alt="aa">محامي
-    </div>
-    <div class="col">
-    <img class="imgg" src="../image/traineesignupastraainee.svg" alt="aa">
+    <img class="imgg" src="../image/student.svg" alt="aa">طالب علم
     </div>
   </div>
 </div>

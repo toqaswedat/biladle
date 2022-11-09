@@ -5,7 +5,7 @@
 </div>
 <section class="bgimage d-flex  ">
 
-<div class=" next text-right col-3  d-flex align-items-start justify-content-center flex-column ">
+<div class=" next text-right col-3  d-flex align-items-start justify-content-center flex-column IconSignupMember">
         <div>
             <img class="person " src="../image/personal.svg" alt="">
             <span>البيانات الشخصية</span>
@@ -22,7 +22,7 @@
 </div>
 
 
-<div class="col-6 text-center  bg-body shadow p-3 mb-5 border rounded d-flex justify-content-center flex-column">
+<div class="col-6 text-center  bg-body shadow p-3 mb-5 border rounded d-flex justify-content-center flex-column FormSignupMember">
 <p>حساب جديد </p>
 <p>من فضلك قم بتعبئة البيانات التالية لتتمكن من تسجيل الدخول لمنصة بالعدل</p>
 <!-- start grid -->
