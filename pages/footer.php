@@ -1,41 +1,21 @@
-
-
-<div>
-    test
-</div>
-
-
-<!DOCTYPE html>
-<html lang="en" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- CSS only bootsrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!-- font cairo -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- custom Css-->
-    <link rel="stylesheet" href="../css/navbar.css" type="text/css">
-    <link rel="stylesheet" href="../css/footer.css" type="text/css">
-
-
-    <title>Document</title>
-</head>
+<section class=" pt-5 pb-5">
+<h3 class="text-center custom-control">اشترك معنا</h3>
+    <div class="col-sm-12" >    
+      <p class="text-center ">ادخل بريدك الالكتروني لتحصل علي كل جديد</p>
+    </div>
+    <div class="d-flex align-items-center justify-content-center pt-3">
+      <input type="email" placeholder="ادخل البريد الالكتروني"  class="form-control  w-25"/>
+      <button class="btn btn-lg bg-dark font-weight-bold text-light rounded ">اشترك</button>
+    </div>
+</section>
 
 <footer>
 
-    <section class="footer-Content p-4 bg-dark text-light footerAll">
-        <div class="row p-xl-1 pr-xl-5">
+    <section class="footer-Content p-4 bg-dark text-light footerAll text-right">
+        <div class=" p-xl-1 pr-xl-5 text-right">
         <a class="navbar-brand logo pr-xl-5" href=""><img  src="../image/logoBiladl.svg" alt=""></a>
         </div>
-      <div class="row p-xl-1 pr-xl-5 ">
+      <div class=" p-5 d-flex  flex-row">
   
         <div class="col-5 mt-3  pb-3 footerLogo">
           <p class="">بوابة قانونية متعاونة مع احدى اكبر مكاتب المحاماة <br>والاستشارات الشرعية والقانوني في جدة بالمملكة العربية <br>السعودية حتى تكون الممثل القانوني الرائد في منطقة الشرق <br> الأوسط وشمال افريقيا.</p>
@@ -92,12 +72,15 @@
           </div>
         </div>
       </div>
-      <div class="row text-center custom-control">
+      <div class="text-center custom-control">
         <p>جميع الحقوق محفوظة <span class="text-warning" >@بالعدل</span> - 2022</p>
       </div>
     </section>
   </footer>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </body>
 </html>

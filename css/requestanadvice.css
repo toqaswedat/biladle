@@ -1,0 +1,42 @@
+.advice{
+    height: 147.56px;
+    
+}  
+label{
+    text-align: right;
+}
+.textline{  
+border-bottom: 3px solid #F5CB00;
+transform: rotate(180deg);
+}
+.form-control{
+height: 48px;
+border: 1px solid #D8D8D8;
+border-radius: 4px;
+}
+.spn ,.spn1{
+    border: 2px solid #D8D8D8;
+    padding: 2PX;
+}
+.spn1{
+    height: 43px;
+}
+.spn img{
+    padding: 5px;
+    border-left:1px solid #D8D8D8 ;
+}
+textarea{
+    border: 1px solid #D8D8D8;
+border-radius: 4px;
+}
+input ,select{
+    border:none !important;
+}
+.imgg{
+    border:none !important;
+}
+#upload-photo {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+ }
