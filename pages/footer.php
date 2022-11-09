@@ -4,8 +4,8 @@
       <p class="text-center ">ادخل بريدك الالكتروني لتحصل علي كل جديد</p>
     </div>
     <div class="d-flex align-items-center justify-content-center pt-3">
-      <input type="email" placeholder="ادخل البريد الالكتروني"  class="form-control  w-25"/>
-      <button class="btn btn-lg bg-dark font-weight-bold text-light rounded ">اشترك</button>
+      <input type="email" placeholder="ادخل البريد الالكتروني"  class="form-control border w-25"/>
+      <button class="btn  bg-dark font-weight-bold text-light rounded ">اشترك</button>
     </div>
 </section>
 

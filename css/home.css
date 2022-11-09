@@ -18,9 +18,56 @@
     align-items: center;
     justify-content: center; */
 }
+.swiper {
+ width: 500px;
 
+  }
+  .mySwiper{
 
+    width: 60%;
+    margin: 0;
+    padding: 0;
+  }
 
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: skyblue;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.note-card{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.step-pr{
+
+    padding-right: 0 !important;
+}
 @media (max-width: 767px) {
     .carousel-inner .carousel-item > div {
         display: none;
@@ -48,6 +95,7 @@
     .carousel-inner .carousel-item-prev {
       transform: translateX(-25%);
     }
+ 
 }
 
 .carousel-inner .carousel-item-end,
@@ -127,6 +175,7 @@
         flex: 0 0 38% !important;
         max-width: 44% !important;
         padding-top: 2em !important;
+        gap: 10px;
     }
     .servisHomeSection img{
         width: 100%;
@@ -165,6 +214,7 @@
 
       .servisHomeSection{
         flex-direction: column;
+        gap: 10px;
     }
     .planHomesection{
         flex: 0 0 100% !important;
