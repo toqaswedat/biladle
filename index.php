@@ -167,7 +167,7 @@
       </ul>
       </div>
       <div class="text-right">
-        <button class="btn btn-lg bg-dark font-weight-bold text-light datepicker mt-2 w-100  "> اشترك الآن </button>
+        <button class="btn btn-lg bg-dark font-weight-bold  text-light datepicker mt-2 w-100  "> اشترك الآن </button>
       </div>
     </div>
 
@@ -388,5 +388,5 @@ items.forEach((el) => {
 </script>
 
 <?php
-//  include(__DIR__ . './pages/footer.php');
+ include(__DIR__ . './pages/footer.php');
 ?>
