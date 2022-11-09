@@ -1,0 +1,37 @@
+.contactnav {
+    height: 150px;
+}
+
+.spancontact {
+    text-decoration: underline;
+    text-decoration-color: #F5CB00;
+
+}
+
+.contactemail {
+    background-image: url('../image/MailIcon.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-origin: content-box;
+}
+
+.lognumspan {
+    border: 2px solid #D8D8D8;
+    padding: 2px;
+}
+
+.contactnum {
+    height: 48px;
+    border: 1px solid #D8D8D8;
+    border-radius: 4px;
+}
+
+.lognumspan img {
+    margin: 2px;
+    padding: 10px;
+    border-left: 1px solid #D8D8D8;
+}
+
+.countryICON {
+    border: none !important;
+}
