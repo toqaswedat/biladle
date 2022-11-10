@@ -55,7 +55,16 @@
     height: 100%;
     object-fit: cover;
   }
+.note-cards{
 
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .note-card{
 
     display: flex;
@@ -67,6 +76,11 @@
 .step-pr{
 
     padding-right: 0 !important;
+}
+.servisHomeSection{
+
+
+    flex-direction: row;
 }
 @media (max-width: 767px) {
     .carousel-inner .carousel-item > div {
@@ -95,7 +109,42 @@
     .carousel-inner .carousel-item-prev {
       transform: translateX(-25%);
     }
- 
+   
+}
+@media screen and (max-width:768px) {
+    .note-cards{
+
+        flex-wrap: wrap;
+
+    }
+ .note-card{
+
+    width: 50%;
+ }
+ .img_home_section{
+
+    width: 80%;
+ } 
+ .moreAboutBtn {
+
+    margin: 3rem auto !important;
+
+ }
+ .servisHomeSection{
+
+    margin: auto !important;
+    width: 90%;
+    flex-direction: column;
+    gap: 15px;
+ }
+}
+@media screen and (max-width:900px) {
+    .servisHomeSection{
+        gap: 15px;
+        margin: auto !important;
+        width: 90%;
+        flex-direction: column;
+     }
 }
 
 .carousel-inner .carousel-item-end,
@@ -130,10 +179,7 @@
         flex: 0 0 73.333333% !important;
         max-width: 99.333333% !important;
     }
-    .interestedYou{
-        /* border: solid; */
-        flex-direction: column;
-    }
+   
     .lastNewsHome{
         /* border: solid; */
         flex-direction: column;
