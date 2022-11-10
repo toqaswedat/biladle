@@ -37,8 +37,8 @@
       <img  class='' src="../image/negotiations.svg" />
     </div>
   </div>
-  <div class="d-flex justify-content-center">
-    <button class="btn btn-lg col-s-12 bg-dark font-weight-bold text-light datepicker mt-5 text-center w-25 ">اشترك الآن</button>
+  <div class="d-flex justify-content-center btnServicesNow">
+    <button class="btn btn-lg col-s-12 bg-dark font-weight-bold text-light datepicker mt-5 text-center   w-25">اشترك الآن</button>
   </div>
 </section>
 <section class="text-right  servicesDiv d-flex justify-content-between pb-5">
