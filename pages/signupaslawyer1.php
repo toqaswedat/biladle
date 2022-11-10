@@ -17,7 +17,7 @@
         </div>
         <div>
             <img class="person " src="../image/wwimg.svg" alt=""> 
-            <span> البلد</span>
+            <span> الدولة والميلاد</span>
         </div> 
         <div class="imgline">
 
@@ -34,19 +34,22 @@
 <p>حساب جديد </p>
 <p>من فضلك قم بتعبئة البيانات التالية لتتمكن من تسجيل الدخول لمنصة بالعدل</p>
 <!-- start grid -->
+<!-- start grid -->
 <div class="container">
-  <div class="row">
-    <div class="col">
-    <img class="imgg" src="../image/Framesignupastraainee.svg" alt="aa">
+  <div class="row align-items-center">
+    <div onclick="window.location.href='/pages/signupasamember.php'" class="col c-pointer d-flex gap-3 ">
+    <img class="imgg" src="../image/nameicon.svg" alt="aa">عضو
+
     </div>
-    <div class="col">
-    <img class="imgg" src="../image/lawer2.svg" alt="aa">محامي
+    <div  onclick="window.location.href='/pages/signupaslawyer1.php'" class="col c-pointer  d-flex gap-3 border-left border-right">
+    <img class="imgg" src="../image/lawyer02.svg" alt="aa">
     </div>
-    <div class="col">
-    <img class="imgg" src="../image/traineesignupastraainee.svg" alt="aa">
+    <div onclick="window.location.href='/pages/signupastraainee.php'" class="col c-pointer d-flex gap-3">
+    <img class="imgg" src="../image/student.svg" alt="aa">طالب علم
     </div>
   </div>
 </div>
+<!-- end grid -->
 <!-- end grid -->
 
 <!-- start form -->
@@ -107,7 +110,7 @@
   </div>
         <!-- button -->
         <div class="d-grid gap-2 ">
-            <button  class="btn btn-dark " type="button">التالي</button>
+            <button  class="btn btn-dark " onclick="window.location.href='/pages/signupasalawyer2.php'" type="button">التالي</button>
         </div>
         <a href="/pages/login.php" class="text-center ankerlogin">  لديك حساب؟ <b>تسجيل الدخول</b></a>
 
@@ -115,4 +118,3 @@
 
 
 </section>
-

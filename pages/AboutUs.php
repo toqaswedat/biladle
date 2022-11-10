@@ -1,10 +1,11 @@
 <?php include('navbar.php');?>
+
 <section class="d-flex flex-column justify-content-center align-items-center text-light" style="background-image:url('../image/coveraboutUs.jpg');  background-size: cover; background-repeat: no-repeat; height:374px;">
 <h6>الصفحة الرئيسية > عن بالعدل</h6>
 <h1>عن بالعدل</h1>
 </section>
-<h2 class="text-right p-5">عن بالعدل</h2>
-<section class="text-right  memberShipDiv d-flex justify-content-between pb-5">
+<h1 class=" text-right p-5"><u class="undellineHome"> عن</u> بالعدل</h1>
+<section class="text-right  memberShipDiv d-flex justify-content-around pb-5">
     <div class="col-6 divAboutUs">
     <ul class="list-unstyled pt-3">
         <li><img  class='pl-3' src="../image/point05.svg" /> 

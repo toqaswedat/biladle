@@ -5,7 +5,7 @@
     <small class="text-warning">149.00</small>
     <small>ريال/شهر</small> </h1>
 </div>
-<div class="text-right p-3 memberShipDiv">
+<div class="text-right col-8 p-5 memberShipDiv">
 
     <h5 class="font-weight-bold">
     المسائل التي سوف تقوم بالعدل بمساعدتك بشأنها:
@@ -102,7 +102,7 @@
     <button class="btn btn-lg bg-black text-light ml-4">
     اشترك الآن
     </button>
-    <button class="btn btn-lg border border-dark rounded">
+    <button onclick="window.location.href='/index.php'" class="btn btn-lg border border-dark rounded">
     رجوع
     </button>
 </div>

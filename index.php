@@ -30,7 +30,7 @@
         <h6>تحدث معنا</h6><br><br>
         </a>
       </div>
-      <div class="">
+      <div class="c-pointer" onclick="window.location.href='/pages/requestanadvice.php'">
         <div class="icon ">
           <img class='' src="../image/advice.svg" />
         </div>
@@ -56,11 +56,11 @@
   <h1 class="text-center custom-control"><u class="pt-2 undellineHome">قد ي</u>همك أيضاً </h1>
   <div class=" note-cards pt-5 ">
     <div class=" note-card">
-      <img class='img_home_section' src="./image/lawers.svg" />
+      <img class='img_home_section ' src="./image/lawers.svg" />
       <h6 class="">محامون بالعدل</h6>
     </div>
     <div class=" note-card">
-      <img class='img_home_section' src="./image/crimes.svg" />
+      <img class='img_home_section ' src="./image/crimes.svg" />
       <h6 class="">التشهيرالسيبراني</h6>
     </div>
     <div class="  note-card">
@@ -162,7 +162,7 @@
             و 365 يومًا في السنة ، عبر خط المساعدة القانوني لدينا.</Li>
           <Li class="pt-4"><img class='' src="./image/point05.svg" />المساعدة القانونية عبر الإنترنت خلال ساعات العمل.
           </Li>
-          <Li class="pt-4">قراءة المزيد <img class='' src="./image/readmore.svg" /> </Li>
+          <Li onclick="window.location.href='/pages/GoldMembership.php'" class="pt-4 c-pointer">قراءة المزيد <img class='' src="./image/readmore.svg" /> </Li>
         </ul>
       </div>
       <div class="text-right">
@@ -185,7 +185,7 @@
             جميع الخدمات وكل شيء آخر تقدمه العضوية الذهبية</Li>
           <Li class="pt-4"><img class='' src="./image/point05.svg" />
             المساعدة القانونية على مدار 7/24 علي مدار 365 يوم عبر خطنا القانوني </Li>
-          <Li class="pt-4">قراءة المزيد <img class='' src="./image/readmore.svg" /> </Li>
+          <Li onclick="window.location.href='/pages/GoldMembershipplus.php'" class="pt-4 c-pointer">قراءة المزيد <img class='' src="./image/readmore.svg" /> </Li>
         </ul>
       </div>
       <div class="text-right">
@@ -360,7 +360,105 @@
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- <script>
+  $(function() {
+  var INDEX = 0; 
+  $("#chat-submit").click(function(e) {
+    e.preventDefault();
+    var msg = $("#chat-input").val(); 
+    if(msg.trim() == ''){
+      return false;
+    }
+    generate_message(msg, 'self');
+    var buttons = [
+        {
+          name: 'Existing User',
+          value: 'existing'
+        },
+        {
+          name: 'New User',
+          value: 'new'
+        }
+      ];
+    setTimeout(function() {      
+      generate_message(msg, 'user');  
+    }, 1000)
+    
+  })
+  
+  function generate_message(msg, type) {
+    INDEX++;
+    var str="";
+    str += "<div id='cm-msg-"+INDEX+"' class=\"chat-msg "+type+"\">";
 
+    str += "          <div class=\"cm-msg-text\">";
+    str += msg;
+    str += "          <\/div>";
+    str += "        <\/div>";
+    $(".chat-logs").append(str);
+    $("#cm-msg-"+INDEX).hide().fadeIn(300);
+    if(type == 'self'){
+     $("#chat-input").val(''); 
+    }    
+    $(".chat-logs").stop().animate({ scrollTop: $(".chat-logs")[0].scrollHeight}, 1000);    
+  }  
+  
+  function generate_button_message(msg, buttons){    
+    /* Buttons should be object array 
+      [
+        {
+          name: 'Existing User',
+          value: 'existing'
+        },
+        {
+          name: 'New User',
+          value: 'new'
+        }
+      ]
+    */
+    INDEX++;
+    var btn_obj = buttons.map(function(button) {
+       return  "              <li class=\"button\"><a href=\"javascript:;\" class=\"btn btn-primary chat-btn\" chat-value=\""+button.value+"\">"+button.name+"<\/a><\/li>";
+    }).join('');
+    var str="";
+    str += "<div id='cm-msg-"+INDEX+"' class=\"chat-msg user\">";
+    str += "          <span class=\"msg-avatar\">";
+    str += "            <img src=\"https:\/\/image.crisp.im\/avatar\/operator\/196af8cc-f6ad-4ef7-afd1-c45d5231387c\/240\/?1483361727745\">";
+    str += "          <\/span>";
+    str += "          <div class=\"cm-msg-text\">";
+    str += msg;
+    str += "          <\/div>";
+    str += "          <div class=\"cm-msg-button\">";
+    str += "            <ul>";   
+    str += btn_obj;
+    str += "            <\/ul>";
+    str += "          <\/div>";
+    str += "        <\/div>";
+    $(".chat-logs").append(str);
+    $("#cm-msg-"+INDEX).hide().fadeIn(300);   
+    $(".chat-logs").stop().animate({ scrollTop: $(".chat-logs")[0].scrollHeight}, 1000);
+    $("#chat-input").attr("disabled", true);
+  }
+  
+  $(document).delegate(".chat-btn", "click", function() {
+    var value = $(this).attr("chat-value");
+    var name = $(this).html();
+    $("#chat-input").attr("disabled", false);
+    generate_message(name, 'self');
+  })
+  
+  $("#chat-circle").click(function() {    
+    $("#chat-circle").toggle('scale');
+    $(".chat-box").toggle('scale');
+  })
+  
+  $(".chat-box-toggle").click(function() {
+    $("#chat-circle").toggle('scale');
+    $(".chat-box").toggle('scale');
+  })
+  
+})
+</script> -->
 
 <script>
   // $(document).ready(function(){

@@ -35,3 +35,25 @@
 .countryICON {
     border: none !important;
 }
+.service-image{
+
+    width: 604px;
+    height: 604px;
+}
+.service-image-2{
+
+    width: 609px;
+    height: 550px;
+
+}
+.service-image-3{
+
+    width: 604px;
+    height: 395px;
+
+}
+.contact-field:focus{
+
+outline: none !important;;
+box-shadow: none !important;
+}

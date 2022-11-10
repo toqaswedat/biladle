@@ -15,11 +15,11 @@
     background-repeat: repeat-y
   }
 }
-form{
+.formlogin{
   padding: 3rem;
 }
 @media (max-width: 800px) {
-  form {
+  .formlogin {
    padding: 5px !important; 
   }
 }

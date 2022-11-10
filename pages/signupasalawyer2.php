@@ -35,14 +35,15 @@
 <p>من فضلك قم بتعبئة البيانات التالية لتتمكن من تسجيل الدخول لمنصة بالعدل</p>
 <!-- start grid -->
 <div class="container">
-  <div class="row">
-      <div class="col">
-          <img class="imgg" src="../image/nameicon.svg" alt="aa">عضو
-        </div>
-        <div class="col">
-        <img class="imgg" src="../image/lawyer02.svg" alt="aa">
-        </div>
-    <div class="col">
+  <div class="row align-items-center">
+    <div onclick="window.location.href='/pages/signupasamember.php'" class="col c-pointer d-flex gap-3 ">
+    <img class="imgg" src="../image/nameicon.svg" alt="aa">عضو
+
+    </div>
+    <div  onclick="window.location.href='/pages/signupaslawyer1.php'" class="col c-pointer d-flex gap-3 border-left border-right">
+    <img class="imgg" src="../image/lawyer02.svg" alt="aa">
+    </div>
+    <div onclick="window.location.href='/pages/signupastraainee.php'" class="col c-pointer d-flex gap-3">
     <img class="imgg" src="../image/student.svg" alt="aa">طالب علم
     </div>
   </div>
@@ -124,7 +125,7 @@
         
         <!-- button -->
         <div class="d-grid gap-2 ">
-            <button  class="btn btn-dark " type="button">حساب جديد</button>
+            <button  class="btn btn-dark " onclick="window.location.href='/pages/signupasalawyer3.php'" type="button">التالي</button>
         </div>
         <p> لديك حساب؟<b> تسجيل الدخول</b></p>
 

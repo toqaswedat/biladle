@@ -12,7 +12,7 @@
     <p class="coverparag text-light text-center">الاسالة الشائعة > الصفحة الرئيسية</p>
     <h1 class="coverheading text-light text-center">الاسالة الشائعة</h1>
 </section>
-<div class="questions m-5 ">
+<div class="questions m-5 text-right">
     <img src="../image/questionsicon.svg" alt="">
     <h3 class="mt-4"><b>الأسالة الشائعة</b></h3>
 
@@ -216,6 +216,7 @@
 // $(this).html('<i class="icon-circle-arrow-up"></i> Advanced search');
 
 </script>
+<?php include('footer.php');?>
 
 
 

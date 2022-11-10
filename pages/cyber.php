@@ -34,12 +34,13 @@
 
         </div>
 
-        <div class="imagesectioncyber col-4">
+        <div class="imagesectioncyber col-5">
 
                 <img class="imgcontentcyber" src="../image/cyber.svg">
         </div>
     </div>
 </section>
+<?php include('footer.php');?>
 
 
 

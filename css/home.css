@@ -1,7 +1,11 @@
 .undellineHome{
     text-decoration-color:#F5CB00;
+    text-underline-offset: 18px;
 }
+.c-pointer{
 
+    cursor: pointer;
+}
 .uploudApp{
     padding-top: 21em;
     padding-left: 10em;
