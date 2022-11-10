@@ -77,6 +77,11 @@
 
     padding-right: 0 !important;
 }
+.servisHomeSection{
+
+
+    flex-direction: row;
+}
 @media (max-width: 767px) {
     .carousel-inner .carousel-item > div {
         display: none;
@@ -129,7 +134,17 @@
 
     margin: auto !important;
     width: 90%;
+    flex-direction: column;
+    gap: 15px;
  }
+}
+@media screen and (max-width:900px) {
+    .servisHomeSection{
+        gap: 15px;
+        margin: auto !important;
+        width: 90%;
+        flex-direction: column;
+     }
 }
 
 .carousel-inner .carousel-item-end,

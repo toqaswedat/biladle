@@ -1,5 +1,7 @@
 <?php include(__DIR__ . '/pages/navbar.php');?>
-<section class="pb-5 home-section-top " style="background-image:url('https://magical-brown.65-108-72-55.plesk.page/assets/website/arabic/img/PropertyDefault.svg'); background-position: center left; background-repeat: no-repeat; background-size: 1953px 673px;"> 
+<section class="pb-5 home-section-top " style="background-image:url('https://magical-brown.65-108-72-55.plesk.page/assets/website/arabic/img/PropertyDefault.svg');     background-position: 16% 10%;
+    background-repeat: no-repeat;
+    background-size: 60% 465px;"> 
 
   <div class=" d-flex align-items-center home-section-top2">
     <!-- Swiper -->
