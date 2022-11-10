@@ -57,3 +57,25 @@
 outline: none !important;;
 box-shadow: none !important;
 }
+.servisHomeSection{
+
+    margin: 0 3rem;
+}
+@media screen and (max-width:900px) {
+
+    .service-image,.service-image-2,.service-image-3{
+
+        width: 300px;
+        height: auto;
+    }
+    .servisHomeSection{
+
+        margin: auto !important;
+     
+    }
+    .loginContentOne {
+
+        background-image: none !important;
+    }
+    
+}

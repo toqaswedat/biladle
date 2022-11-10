@@ -14,13 +14,13 @@
            
             <div class="container">
                 <div class="row d-flex justify-content-center mt-4">
-                    <div class="col-2 d-flex justify-content-center align-items-center gap-2 ">
+                    <div class="col-lg-2 col-md-3 d-flex justify-content-center align-items-center gap-2 ">
                         <img class="imgg" src="../image/MEMBER.svg" alt="aa">
                     </div>
-                    <div onclick="window.location.href='/pages/loginLawyer.php'" class=" c-pointer col-2 border-right border-left d-flex justify-content-center align-items-center gap-2 ">
+                    <div onclick="window.location.href='/pages/loginLawyer.php'" class=" c-pointer col-lg-2 col-md-3 border-right border-left d-flex justify-content-center align-items-center gap-2 ">
                         <img class="imgg" src="../image/lawer2.svg" alt="aa">محامي
                     </div>
-                    <div onclick="window.location.href='/pages/loginTrainee.php'" class="c-pointer col-2 justif-content-center d-flex align-items-center gap-2">
+                    <div onclick="window.location.href='/pages/loginTrainee.php'" class="c-pointer col-lg-2 col-md-3 justify-content-center d-flex align-items-center gap-2">
                         <img class="imgg" src="../image/student.svg" alt="aa">طالب علم
                     </div>
                 </div>

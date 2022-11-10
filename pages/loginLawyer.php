@@ -12,13 +12,13 @@
             <label class="text-center mt-2">من فضلك قم بتعبئة البيانات التالية لتتمكن من تسجيل الدخول لمنصة بالعدل</label>
             <div class="container">
                 <div class="row d-flex justify-content-center mt-4">
-                    <div onclick="window.location.href='/pages/login.php'" class="c-pointer col-2 d-flex justify-content-center align-items-center gap-2 ">
+                    <div onclick="window.location.href='/pages/login.php'" class="c-pointer col-lg-2 col-md-3 d-flex justify-content-center align-items-center gap-2 ">
                     <img class="imgg" src="../image/nameicon.svg" alt="aa">عضو
                     </div>
-                    <div onclick="window.location.href='/pages/loginLawyer.php'" class=" c-pointer col-2 border-right border-left d-flex justify-content-center align-items-center gap-2 ">
+                    <div onclick="window.location.href='/pages/loginLawyer.php'" class=" c-pointer col-lg-2 col-md-3 border-right border-left d-flex justify-content-center align-items-center gap-2 ">
                     <img class="imgg" src="../image/lawyer02.svg" alt="aa">
                     </div>
-                    <div onclick="window.location.href='/pages/loginTrainee.php'" class="c-pointer col-2 justif-content-center d-flex align-items-center gap-2">
+                    <div onclick="window.location.href='/pages/loginTrainee.php'" class="c-pointer col-lg-2 col-md-3 justify-content-center d-flex align-items-center gap-2">
                         <img class="imgg" src="../image/student.svg" alt="aa">طالب علم
                     </div>
                 </div>
@@ -63,7 +63,7 @@
 
                     <button type="submit" class="btn btn-dark pt-2 w-100 h-100">تسجيل الدخول</button>
                 </div>
-                <a class="text-center ankerlogin"> ليس لديك حساب؟ <b>حساب جديد</b></a>
+                <a href="/pages/signupasamember.php" class="text-center ankerlogin"> ليس لديك حساب؟ <b>حساب جديد</b></a>
 
 
         </div>

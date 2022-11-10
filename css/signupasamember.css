@@ -38,12 +38,19 @@ padding: 1em;}
     max-width: 69% !important;
     }
 }
+@media screen and (max-width:900px) {
+.bgimage {
+
+    background-image: none !important;
+    padding-right: 2rem !important;
+
+}    
+}
 
 @media(max-width:553px){
     .bgimage{
         flex-direction: column;
-    padding-right: 5em !important;
-    padding-top: 2em !important;
+  
 
     }
     .bgimage .IconSignupMember{

@@ -9,7 +9,7 @@
   <p class="d-flex flex-column justify-content-center align-items-center text-center pt-5 ">تقدم بالعدل المشورة القانونية والتمثيل القانوني لك ولعائلتك بما في ذلك زوجك أو أطفالك<br> الذين تقل أعمارهم عن 18 عامًا. يمكنك حماية حقوق عائلتك القانونية من خلال خيارات العضوية <br>الذهبية أو الذهبية أو البلاتينية. </p>
 
 
-  <div class=" mr-5 ml-5 pt-5 d-flex servisHomeSection" >
+  <div class=" pt-5 d-flex servisHomeSection" >
     <div class="col-sm-3 " >    
       <img  class='' src="../image/civil.svg" />
     </div>
@@ -23,7 +23,7 @@
       <img  class='' src="../image/family.svg" />
     </div>
   </div>
-  <div class=" mr-5 ml-5 pt-5 d-flex servisHomeSection" >
+  <div class="  pt-5 d-flex servisHomeSection" >
     <div class="col-sm-3 " >    
       <img  class='' src="../image/court.svg" />
     </div>

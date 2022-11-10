@@ -100,6 +100,10 @@
 .carousel-inner .carousel-item-prev {
     display: flex;
 }
+.moreAboutBtn{
+
+    width: 25%;
+}
 
 /* medium and up screens */
 @media (min-width: 768px) {
@@ -116,6 +120,12 @@
    
 }
 @media screen and (max-width:768px) {
+    .app-home-icons{
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
     .note-cards{
 
         flex-wrap: wrap;
@@ -148,6 +158,11 @@
         margin: auto !important;
         width: 90%;
         flex-direction: column;
+     }
+     .undellineHome{
+
+        text-decoration: none;
+        
      }
 }
 
@@ -194,7 +209,7 @@
     }
 
     .lastnewsSectionTwo button, .moreAboutBtn{
-        width: 100% !important;
+        width: 90% !important;
     }
     .aboutHomeSectiion{
         /* border: solid; */

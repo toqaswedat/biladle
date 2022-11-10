@@ -41,10 +41,17 @@ align-items: center;
     height: 20px;
 }
 
+.subs-input{
 
+    width: 25%;
+    margin: auto;
+}
 
   @media (max-width: 992px) {
+.subs-input{
 
+    width: 90%;
+}
     .p-about{
 
         font-size: 18px;

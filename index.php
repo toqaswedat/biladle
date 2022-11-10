@@ -15,26 +15,26 @@
     </div>
 
 
-    <div class="col-8 col-lg-3 col-md-5 d-flex align-items-center justify-content-center flex-column">
+    <div class="col-8 col-lg-2 col-md-5 d-flex align-items-center justify-content-around flex-column">
       <div class="">
-        <div class="icon ">
+        <div class="icon d-flex justify-content-center ">
           <img class='' src="../image/callwithus.svg" />
         </div>
-        <h6>اتصل بنا</h6><br><br>
+        <h6 class="text-center">اتصل بنا</h6><br><br>
         </a>
       </div>
       <div class="">
-        <div class="icon ">
+        <div class="icon d-flex justify-content-center">
           <img class='' src="../image/chatwithus.svg" />
         </div>
-        <h6>تحدث معنا</h6><br><br>
+        <h6 class="text-center">تحدث معنا</h6><br><br>
         </a>
       </div>
       <div class="c-pointer" onclick="window.location.href='/pages/requestanadvice.php'">
-        <div class="icon ">
+        <div class="icon d-flex justify-content-center ">
           <img class='' src="../image/advice.svg" />
         </div>
-        <h6>نصيحة قانونية</h6><br><br>
+        <h6 class="text-center">نصيحة قانونية</h6><br><br>
         </a>
       </div>
     </div>
@@ -237,8 +237,8 @@
     <div class="">
       <h1 class="text-light">حمل التطبيق الآن</h1>
     </div>
-    <div class="pt-5">
-      <img class='pl-3 pr-5' src="./image/appstore.svg" />
+    <div class="pt-5 app-home-icons ">
+      <img class='pl-3 pr-5 ' src="./image/appstore.svg" />
       <img class='pl-3 pr-5' src="./image/googleplay.svg" />
     </div>
     <div></div>
@@ -295,7 +295,7 @@
     </div>
   </div>
   <div class="d-flex justify-content-center">
-    <button class="moreAboutBtn btn btn-lg col-s-12 bg-dark font-weight-bold text-light datepicker mt-5  w-25 ">عرض
+    <button class="moreAboutBtn btn btn-lg col-s-12 bg-dark font-weight-bold text-light datepicker mt-5  ">عرض
       الكل</button>
   </div>
 
