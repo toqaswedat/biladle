@@ -13,7 +13,7 @@
 
     <section class="footer-Content p-4 bg-dark text-light footerAll text-right">
         <div class=" p-xl-1 pr-xl-5 text-right">
-        <a class="navbar-brand logo pr-xl-5" href="../index.php"><img  src="../image/logoBiladl.svg" alt=""></a>
+        <a class="navbar-brand logo pr-xl-5" href="../index.php"><img  src="./image/logoBiladl.svg" alt=""></a>
         </div>
       <div class=" p-3 d-flex flex-wrap">
 

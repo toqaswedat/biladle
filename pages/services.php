@@ -11,30 +11,30 @@
 
   <div class=" pt-5 d-flex servisHomeSection" >
     <div class="col-sm-3 " >    
-      <img  class='' src="../image/civil.svg" />
+      <img  class='' src="../image/civil.jpg" />
     </div>
     <div class="col-sm-3" >    
-      <img  class='' src="../image/criminal.svg" />
+      <img  class='' src="../image/criminal.jpg" />
     </div>
     <div class="col-sm-3" >    
-      <img  class='' src="../image/workissues.svg" />
+      <img  class='' src="../image/workissues.jpg" />
     </div>
     <div class="col-sm-3" >    
-      <img  class='' src="../image/family.svg" />
+      <img  class='' src="../image/family.jpg" />
     </div>
   </div>
   <div class="  pt-5 d-flex servisHomeSection" >
     <div class="col-sm-3 " >    
-      <img  class='' src="../image/court.svg" />
+      <img  class='' src="../image/court.jpg" />
     </div>
     <div class="col-sm-3" >    
-      <img  class='' src="../image/dept.svg" />
+      <img  class='' src="../image/dept.jpg" />
     </div>
     <div class="col-sm-3" >    
-      <img  class='' src="../image/advices.svg" />
+      <img  class='' src="../image/advices.jpg" />
     </div>
     <div class="col-sm-3" >    
-      <img  class='' src="../image/negotiations.svg" />
+      <img  class='' src="../image/negotiations.jpg" />
     </div>
   </div>
   <div class="d-flex justify-content-center btnServicesNow">
@@ -194,7 +194,7 @@
 
     <div class="col-3  text-center planHomesection ">
     <div class="border text-center h-100 pb-5  "    > 
-        <div style="background-image:url('https://magical-brown.65-108-72-55.plesk.page/assets/website/arabic/img/style1.svg');  background-size: cover; background-repeat: no-repeat; height:190px;">
+        <div style="background-image:url('./image/style1.jpg');  background-size: cover; background-repeat: no-repeat; height:190px;">
           <h1 class="pt-5 text-warning" >49.00</h1> 
           <p class="price-quality text-warning">ريال / شهر</p>
         </div>
@@ -216,7 +216,7 @@
 
     <div class="col-3 text-center planHomesection">
     <div class="border text-center h-100  pb-5" > 
-    <div style="background-image:url('https://magical-brown.65-108-72-55.plesk.page/assets/website/arabic/img/style2.svg');  background-size: cover; background-repeat: no-repeat; height:190px;">
+    <div style="background-image:url('./image/style2.jpg');  background-size: cover; background-repeat: no-repeat; height:190px;">
       <h1 class="pt-5 text-warning" >149.00</h1> 
       <p class="price-quality text-warning">ريال / شهر</p>
     </div>
@@ -235,7 +235,7 @@
 
       <div class="col-3  text-center  planHomesection">
     <div class="border text-center h-100 pb-5 " >
-    <div style="background-image:url('https://magical-brown.65-108-72-55.plesk.page/assets/website/arabic/img/style3.svg');  background-size: cover; background-repeat: no-repeat; height:190px;"> 
+    <div style="background-image:url('./image/style3.jpg');  background-size: cover; background-repeat: no-repeat; height:190px;"> 
       <h1 class="pt-5 text-secondary" >249.00</h1> 
       <p class="price-quality text-secondary">ريال / شهر</p>
     </div>

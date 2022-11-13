@@ -7,9 +7,9 @@
     <!-- Swiper -->
     <div class="swiper  mySwiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="./image/sliderHome.svg" alt=""></div>
-        <div class="swiper-slide"><img src="./image/sliderHome.svg" alt=""></div>
-        <div class="swiper-slide"><img src="./image/sliderHome.svg" alt=""></div>
+        <div class="swiper-slide"><img src="./image/sliderHome.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./image/sliderHome.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./image/sliderHome.jpg" alt=""></div>
       </div>
       <div class="swiper-pagination"></div>
     </div>
@@ -106,30 +106,30 @@
 
   <div class=" m-auto pt-5 d-flex servisHomeSection">
     <div class="col-sm-3 ">
-      <img class='' src="./image/civil.svg" />
+      <img class='' src="./image/civil.jpg" />
     </div>
     <div class="col-sm-3">
-      <img class='' src="./image/criminal.svg" />
+      <img class='' src="./image/criminal.jpg" />
     </div>
     <div class="col-sm-3">
-      <img class='' src="./image/workissues.svg" />
+      <img class='' src="./image/workissues.jpg" />
     </div>
     <div class="col-sm-3">
-      <img class='' src="./image/family.svg" />
+      <img class='' src="./image/family.jpg" />
     </div>
   </div>
   <div class=" m-auto pt-5 d-flex servisHomeSection">
     <div class="col-sm-3 mb-2 ">
-      <img class='' src="./image/court.svg" />
+      <img class='' src="./image/court.jpg" />
     </div>
     <div class="col-sm-3 mb-2">
-      <img class='' src="./image/dept.svg" />
+      <img class='' src="./image/dept.jpg" />
     </div>
     <div class="col-sm-3 mb-2">
-      <img class='' src="./image/advices.svg" />
+      <img class='' src="./image/advices.jpg" />
     </div>
     <div class="col-sm-3 mb-2">
-      <img class='' src="./image/negotiations.svg" />
+      <img class='' src="./image/negotiations.jpg" />
     </div>
   </div>
   <div class="d-flex justify-content-center">
@@ -217,7 +217,7 @@
 
 
 <section class="pt-5 pb-5 d-flex DownloadAPPHome"
-  style="background-image:url('https://magical-brown.65-108-72-55.plesk.page/assets/website/arabic/img/appwithmobilebg.svg');  background-size: cover; background-repeat: no-repeat; height:850px;;">
+  style="background-image:url('./image/appwithmobilebg.svg');  background-size: cover; background-repeat: no-repeat; height:850px;;">
   <div
     class="text-right col-md-3 col-sm-6 justify-content-end  list-group list-unstyled pr-5 pb-5 p-5 uploudAppsection2">
     <Li class="text-light pb-3 "><img class='pl-3' src="./image/login.svg" />
@@ -256,7 +256,7 @@
               <div class="col-md-3">
                 <div class="card">
                   <div class="card-img">
-                    <img src="./image/Frame616.svg" class="img-fluid">
+                    <img src="./image/Frame616.jpg" class="img-fluid">
                   </div>
                 </div>
               </div>
@@ -265,7 +265,7 @@
               <div class="col-md-3">
                 <div class="card">
                   <div class="card-img">
-                    <img src="./image/Frame615.svg" class="img-fluid">
+                    <img src="./image/Frame615.jpg" class="img-fluid">
                   </div>
                 </div>
               </div>
@@ -274,7 +274,7 @@
               <div class="col-md-3">
                 <div class="card">
                   <div class="card-img">
-                    <img src="./image/Frame614.svg" class="img-fluid">
+                    <img src="./image/Frame614.jpg" class="img-fluid">
                   </div>
                 </div>
               </div>
@@ -319,13 +319,13 @@
       <!-- Slideshow -->
       <div class="carousel-inner">
       <div class="carousel-item active">
-      <img class="d-block w-100" src="./image/sliderNews.svg" alt="" >
+      <img class="d-block w-100" src="./image/sliderNews.jpg" alt="" >
       </div>
       <div class="carousel-item">
-      <img class="d-block w-100" src="./image/sliderNews.svg" alt="" >
+      <img class="d-block w-100" src="./image/sliderNews.jpg" alt="" >
       </div>
       <div class="carousel-item">
-      <img class="d-block w-100" src="./image/sliderNews.svg" alt="">
+      <img class="d-block w-100" src="./image/sliderNews.jpg" alt="">
       </div>
       </div>
       <!-- Left and right controls -->
