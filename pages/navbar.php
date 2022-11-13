@@ -19,6 +19,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
   <!-- custom Css-->
   <link rel="stylesheet" href="../css/navbar.css" type="text/css">
+  <!-- <link rel="stylesheet" href="../css/chatbox.css" type="text/css"> -->
   <link rel="stylesheet" href="../css/home.css" type="text/css">
   <link rel="stylesheet" href="../css/footer.css" type="text/css">
   <link rel="stylesheet" href="../css/cyber.css" type="text/css">
@@ -29,8 +30,8 @@
   <link rel="stylesheet" href="../css/commonquestions.css" type="text/css">
     <link rel="stylesheet" href="../css/login.css" type="text/css">
   <script src="../scripts/links.json"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -47,7 +48,7 @@
         <a class="text-decoration-none text-light " href="/pages/login.php">تسجيل الدخول</a>
       </div>
       <div class="ham-search-cta">
-      <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <button  class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="text-decoration-none text-light search-icon-mobile" href="#"><img src="../image/SEARCHIcon.svg" alt=""></a>
@@ -62,7 +63,7 @@
                 الرئيسية</span></a>
           </li>
           <li>
-            <a class="text-decoration-none text-light nav-link" href="/pages/lawers.php">عن بالعدل</a>
+            <a class="text-decoration-none text-light nav-link" href="/pages/AboutUs.php">عن بالعدل</a>
           </li>
           <li class="">
             <a class="text-decoration-none text-light nav-link" href="/pages/services.php"> خدماتنا </a>
@@ -86,8 +87,8 @@
             <a class="text-decoration-none text-light nav-link mob-nav-link" href="">English</a>
           </li>
           <li class="col-6 mx-auto mob-nav-cta">
-            <button type="button" class="navbar-toggle bg-warning font-weight-bold datepicker w-100 rounded regHomrB"
-              data-toggle="collapse" data-target="#navbar">
+            <button type="button" class=" bg-warning font-weight-bold datepicker w-100 rounded regHomrB"
+              >
               <b> حساب جديد</b>
             </button>
           </li>
@@ -104,8 +105,7 @@
             <a class="text-decoration-none text-light " href="/pages/login.php">تسجيل الدخول</a>
           </li>
           <li class="col-4">
-            <button onclick="window.location.href='/pages/login.php'" type="button" class="navbar-toggle bg-warning font-weight-bold datepicker w-100 rounded regHomrB"
-              data-toggle="collapse" data-target="#navbar">
+            <button onclick="window.location.href='/pages/login.php'" type="button" class="bg-warning font-weight-bold datepicker w-100 rounded regHomrB">
               <b> حساب جديد</b>
             </button>
           </li>
@@ -113,3 +113,35 @@
       </div>
     </div>
   </nav>
+<!-- 
+  -- uncommnet to use the chat box
+  <div id="chat-circle" class="btn btn-raised">
+        <div id="chat-overlay"></div>
+
+	</div>
+  
+  <div class="chat-box">
+    <div class="chat-box-header">
+    <div class="chat-ops">
+      <img src="/image/chatLogo.png" alt="">
+      <span>دردشة بالعدل</span>
+      </div> 
+      <span class="chat-box-toggle"><img src="/image/x-mark.svg" alt=""></span>
+    </div>
+    <div class="chat-box-body">
+      <div class="chat-box-overlay">   
+      </div>
+      <div class="chat-logs">
+       
+      </div>
+    </div>
+    <div class="chat-input">      
+      <form>
+        <input type="text" id="chat-input" placeholder="Send a message..."/>
+      <button type="submit" class="chat-submit" id="chat-submit"><i class="material-icons">send</i></button>
+      </form>      
+    </div>
+  </div> -->
+  
+  
+  

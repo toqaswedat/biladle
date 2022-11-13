@@ -35,3 +35,47 @@
 .countryICON {
     border: none !important;
 }
+.service-image{
+
+    width: 604px;
+    height: 604px;
+}
+.service-image-2{
+
+    width: 609px;
+    height: 550px;
+
+}
+.service-image-3{
+
+    width: 604px;
+    height: 395px;
+
+}
+.contact-field:focus{
+
+outline: none !important;;
+box-shadow: none !important;
+}
+.servisHomeSection{
+
+    margin: 0 3rem;
+}
+@media screen and (max-width:900px) {
+
+    .service-image,.service-image-2,.service-image-3{
+
+        width: 300px;
+        height: auto;
+    }
+    .servisHomeSection{
+
+        margin: auto !important;
+     
+    }
+    .loginContentOne {
+
+        background-image: none !important;
+    }
+    
+}

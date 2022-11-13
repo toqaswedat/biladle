@@ -72,3 +72,10 @@
     }
 
 }
+
+
+@media (max-width:481px){
+    .btnServicesNow button{
+        width: 80% !important;
+    }
+}

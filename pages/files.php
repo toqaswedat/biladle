@@ -8,24 +8,30 @@
     <img src="../image/filesServices.svg" class="img-fluid">
     <h3 class="font-weight-bold pt-4">وثائق مفيدة</h3>
     <div class="border-bottom pt-3">
-    <a href="../image/pdfIcon.svg" download="pdfIcon" class="p-3">
+    <a href="../image/pdfIcon.svg" download="pdfIcon" class="p-3 d-flex">
+    <div class="col-3 ">
     <img src="../image/pdfIcon.svg" alt="">
     نظام المرافعات الشرعية
-    <img src="../image/BottomAlignment.svg" alt="">
+    </div>
+    <img  src="../image/BottomAlignment.svg" alt="">
     </a>
     </div>
     <div class="border-bottom pt-3">
-    <a href="../image/pdfIcon.svg" download="pdfIcon" class="p-3">
-    <img src="../image/pdfIcon.svg" alt="">
+    <a href="../image/pdfIcon.svg" download="pdfIcon" class="p-3 d-flex">
+    <div class="col-3 ">
+    <img  src="../image/pdfIcon.svg" alt="">
     نظام العمل وآخر التحديثات
+    </div>
     <img src="../image/BottomAlignment.svg" alt="">
     </a>
     </div>
     <div class="border-bottom pt-3">
-    <a href="../image/pdfIcon.svg" download="pdfIcon" class="p-3">
+    <a href="../image/pdfIcon.svg" download="pdfIcon" class="p-3 d-flex">
+    <div class="col-3 ">
     <img src="../image/pdfIcon.svg" alt="">
     أهم قوانين العمل
-    <img src="../image/BottomAlignment.svg" alt="">
+    </div>
+    <img  src="../image/BottomAlignment.svg" alt="">
     </a>
     </div>
 

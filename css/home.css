@@ -1,7 +1,11 @@
 .undellineHome{
     text-decoration-color:#F5CB00;
+    text-underline-offset: 18px;
 }
+.c-pointer{
 
+    cursor: pointer;
+}
 .uploudApp{
     padding-top: 21em;
     padding-left: 10em;
@@ -96,6 +100,10 @@
 .carousel-inner .carousel-item-prev {
     display: flex;
 }
+.moreAboutBtn{
+
+    width: 25%;
+}
 
 /* medium and up screens */
 @media (min-width: 768px) {
@@ -112,6 +120,12 @@
    
 }
 @media screen and (max-width:768px) {
+    .app-home-icons{
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
     .note-cards{
 
         flex-wrap: wrap;
@@ -144,6 +158,11 @@
         margin: auto !important;
         width: 90%;
         flex-direction: column;
+     }
+     .undellineHome{
+
+        text-decoration: none;
+        
      }
 }
 
@@ -190,7 +209,7 @@
     }
 
     .lastnewsSectionTwo button, .moreAboutBtn{
-        width: 100% !important;
+        width: 90% !important;
     }
     .aboutHomeSectiion{
         /* border: solid; */

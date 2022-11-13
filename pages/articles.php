@@ -60,7 +60,7 @@
 
 </div>
     </div>
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center btnServicesNow">
     <button class="moreAboutBtn btn btn-lg col-s-12 bg-dark font-weight-bold text-light datepicker mt-5  w-25 ">عرض الكل</button>
   </div>
     

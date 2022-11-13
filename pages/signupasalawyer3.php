@@ -5,7 +5,7 @@
 </div>
 <section class="bgimage d-flex  ">
 
-<div class=" next text-right col-3  d-flex align-items-start justify-content-center flex-column ">
+<div class=" next text-right col-md-3 col-lg-3 col-sm-9  d-flex align-items-start justify-content-center flex-column IconSignupMember">
         <div>
             <img class="person " src="../image/personal.svg" alt="">
             <span>البيانات الشخصية</span>
@@ -30,19 +30,20 @@
 </div>
 
 
-<div class="col-6 text-center  bg-body shadow p-3 mb-5 border rounded d-flex justify-content-center flex-column">
+<div class="col-lg-6 col-md-8 col-sm-10  text-center  bg-body shadow p-3 mb-5 border rounded d-flex justify-content-center flex-column ">
 <p>حساب جديد </p>
 <p>من فضلك قم بتعبئة البيانات التالية لتتمكن من تسجيل الدخول لمنصة بالعدل</p>
 <!-- start grid -->
 <div class="container">
-  <div class="row">
-      <div class="col">
-          <img class="imgg" src="../image/nameicon.svg" alt="aa">عضو
-        </div>
-        <div class="col">
-        <img class="imgg" src="../image/lawyer02.svg" alt="aa">
-        </div>
-    <div class="col">
+<div class="row d-flex justify-content-center mt-4 align-items-center">
+    <div onclick="window.location.href='/pages/signupasamember.php'" class="col d-flex gap-3 ">
+    <img class="imgg" src="../image/nameicon.svg" alt="aa">عضو
+
+    </div>
+    <div  onclick="window.location.href='/pages/signupaslawyer1.php'" class="col  d-flex gap-3 border-left border-right">
+    <img class="imgg" src="../image/lawyer02.svg" alt="aa">
+    </div>
+    <div onclick="window.location.href='/pages/signupastraainee.php'" class="col  d-flex gap-3">
     <img class="imgg" src="../image/student.svg" alt="aa">طالب علم
     </div>
   </div>
