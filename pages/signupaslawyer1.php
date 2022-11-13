@@ -5,7 +5,7 @@
 </div>
 <section class="bgimage d-flex  ">
 
-<div class=" next text-right col-3  d-flex align-items-start justify-content-center flex-column IconSignupMember">
+<div class=" next text-right col-md-3 col-lg-3 col-sm-9  d-flex align-items-start justify-content-center flex-column IconSignupMember">
         <div>
             <img class="person " src="../image/personal.svg" alt="">
             <span>البيانات الشخصية</span>
@@ -17,7 +17,7 @@
         </div>
         <div>
             <img class="person " src="../image/wwimg.svg" alt=""> 
-            <span> البلد</span>
+            <span> الدولة والميلاد</span>
         </div> 
         <div class="imgline">
 
@@ -30,23 +30,26 @@
 </div>
 
 
-<div class="col-6 text-center  bg-body shadow p-3 mb-5 border rounded d-flex justify-content-center flex-column FormSignupMember">
+<div class="col-lg-6 col-md-8 col-sm-10  text-center  bg-body shadow p-3 mb-5 border rounded d-flex justify-content-center flex-column ">
 <p>حساب جديد </p>
 <p>من فضلك قم بتعبئة البيانات التالية لتتمكن من تسجيل الدخول لمنصة بالعدل</p>
 <!-- start grid -->
+<!-- start grid -->
 <div class="container">
-  <div class="row">
-    <div class="col">
-    <img class="imgg" src="../image/Framesignupastraainee.svg" alt="aa">
+<div class="row d-flex justify-content-center mt-4 align-items-center">
+    <div onclick="window.location.href='/pages/signupasamember.php'" class="col c-pointer d-flex gap-3 ">
+    <img class="imgg" src="../image/nameicon.svg" alt="aa">عضو
+
     </div>
-    <div class="col">
-    <img class="imgg" src="../image/lawer2.svg" alt="aa">محامي
+    <div  onclick="window.location.href='/pages/signupaslawyer1.php'" class="col c-pointer  d-flex gap-3 border-left border-right">
+    <img class="imgg" src="../image/lawyer02.svg" alt="aa">
     </div>
-    <div class="col">
-    <img class="imgg" src="../image/traineesignupastraainee.svg" alt="aa">
+    <div onclick="window.location.href='/pages/signupastraainee.php'" class="col c-pointer d-flex gap-3">
+    <img class="imgg" src="../image/student.svg" alt="aa">طالب علم
     </div>
   </div>
 </div>
+<!-- end grid -->
 <!-- end grid -->
 
 <!-- start form -->
@@ -107,12 +110,11 @@
   </div>
         <!-- button -->
         <div class="d-grid gap-2 ">
-            <button  class="btn btn-dark " type="button">التالي</button>
+            <button  class="btn btn-dark " onclick="window.location.href='/pages/signupasalawyer2.php'" type="button">التالي</button>
         </div>
-        <p>لديك حساب؟ تسجيل الدخول</p>
+        <a href="/pages/login.php" class="text-center ankerlogin">  لديك حساب؟ <b>تسجيل الدخول</b></a>
 
 </form>
 
 
 </section>
-

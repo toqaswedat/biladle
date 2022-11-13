@@ -1,9 +1,9 @@
 .imgcontentcyber{
-    width: 100%;
-    height: auto;
+    width: 501px;
+    height: 654px;
 }
 .listcyberparag p{
-    padding-bottom: 1rem !important;
+margin: 0;
 }
 
 @media (max-width: 980px) {

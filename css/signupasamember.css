@@ -1,5 +1,5 @@
 .bgimage{
-    background-image: url(../image/bgbasic.svg);
+    background-image: url(../image/bgbasic.jpg);
     background-size: 50%;
     height: auto;
     background-repeat: repeat-y;
@@ -33,27 +33,34 @@ padding: 1em;}
     .bgimage{
         padding-right: 0 !important;
     }
-    .FormSignupMember{
+    /* .FormSignupMember{
         flex: 0 0 91% !important;
     max-width: 69% !important;
-    }
+    } */
+}
+@media screen and (max-width:900px) {
+.bgimage {
+
+    background-image: none !important;
+  
+padding: 1rem 0;
+}    
 }
 
 @media(max-width:553px){
     .bgimage{
         flex-direction: column;
-    padding-right: 5em !important;
-    padding-top: 2em !important;
+  
 
     }
     .bgimage .IconSignupMember{
         flex-direction: row !important;
-        padding-right: 5em !important;
+     
     }
-    .FormSignupMember{
+    /* .FormSignupMember{
         flex: 0 0 91% !important;
     max-width: 90% !important;
-    }
+    } */
     .imgline{
         visibility: hidden !important;
     }

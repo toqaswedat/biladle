@@ -4,25 +4,25 @@
 </section>
 <div class="container-fluid contactform">
 
-  <section>
+  <section class="text-right">
 
     <div class="container">
       <div class="row">
         <div class="col justify-content-center align-items-center">
-          <form class=" row g-3 p-5">
+          <form class=" row g-3 pt-5">
 
 
 
-            <div class="col-12 pb-2 ">
+            <div class="col-12 pb-2  ">
               <label for="name" class="form-label"><b>الإسم</b></label>
               <span class="logspan d-flex rounded"><img src="../image/contacticon.svg">
-                <input type="text" class="form-control contactname" placeholder="ادخل اسمك">
+                <input type="text" class="form-control contactname contact-field" placeholder="ادخل اسمك">
               </span>
             </div>
             <div class="col-12 pb-2 ">
               <label for="name" class="form-label"><b>رقم الهاتف</b></label>
               <span class="lognumspan d-flex rounded"><img src="../image/PHONEicno.svg">
-                <input type="text" class="form-control contactnum" placeholder="ادخل رقم الهاتف">
+                <input type="text" class="form-control contactnum contact-field" placeholder="ادخل رقم الهاتف">
                 <img class="countryICON" src="../image/countryICON.svg">
               </span>
             </div>
@@ -30,7 +30,7 @@
             <div class="col-12 pb-2 d-flex flex-column">
               <label for="Email" class="form-label"><b>البريد الإلكتروني</b></label>
               <span class="logspan d-flex rounded"><img src="../image/iconemail.svg">
-                <input type="email" class="emailinp form-control loginnameicon" placeholder="من فضلك ادخل البريد الالكتروني              
+                <input type="email" class="emailinp form-control loginnameicon contact-field" placeholder="من فضلك ادخل البريد الالكتروني              
 
 
                                                             
@@ -45,8 +45,7 @@
 
             <label for="Email" class="form-label"><b>الرسالة</b></label>
             <div class="form-floating">
-              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-              <label for="floatingTextarea">الرسالة</label>
+              <textarea class="w-100 p-4 contact-field" placeholder="من فضلك ادخل رسالتك..." ></textarea>
             </div>
 
 
@@ -67,3 +66,5 @@
       </div>
   </section>
 </div>
+
+<?php include('footer.php');?>

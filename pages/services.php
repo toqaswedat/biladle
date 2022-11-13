@@ -9,7 +9,7 @@
   <p class="d-flex flex-column justify-content-center align-items-center text-center pt-5 ">تقدم بالعدل المشورة القانونية والتمثيل القانوني لك ولعائلتك بما في ذلك زوجك أو أطفالك<br> الذين تقل أعمارهم عن 18 عامًا. يمكنك حماية حقوق عائلتك القانونية من خلال خيارات العضوية <br>الذهبية أو الذهبية أو البلاتينية. </p>
 
 
-  <div class=" mr-5 ml-5 pt-5 d-flex servisHomeSection" >
+  <div class=" pt-5 d-flex servisHomeSection" >
     <div class="col-sm-3 " >    
       <img  class='' src="../image/civil.svg" />
     </div>
@@ -23,7 +23,7 @@
       <img  class='' src="../image/family.svg" />
     </div>
   </div>
-  <div class=" mr-5 ml-5 pt-5 d-flex servisHomeSection" >
+  <div class="  pt-5 d-flex servisHomeSection" >
     <div class="col-sm-3 " >    
       <img  class='' src="../image/court.svg" />
     </div>
@@ -41,9 +41,9 @@
     <button class="btn btn-lg col-s-12 bg-dark font-weight-bold text-light datepicker mt-5 text-center   w-25">اشترك الآن</button>
   </div>
 </section>
-<section class="text-right  servicesDiv d-flex justify-content-between pb-5">
-    <div class="col-6 divAboutUs">
-    <h3 class="font-weight-bold">ما الذي ستحصل عليه عند اشتراكك في بالعدل</h3>
+<section class="text-right  servicesDiv d-flex justify-content-evenly pb-5">
+    <div class="col-5 divAboutUs">
+    <h3 class="font-weight-bold"><u class=" undellineHome">ما الذي </u> ستحصل عليه عند اشتراكك في بالعدل</h3>
     <ul class="list-unstyled pt-3">
         <li><img  class='pl-3' src="../image/consulting.svg" /> 
         تقديم المشورة القانونية والمساعدة القانونية وجهاً لوجه مع المستشارين القانونيين في بالعدل في جميع أنجاء المملكة. 
@@ -72,12 +72,12 @@
     </ul>
     </div>
     <div class="col-5 divAboutUs">
-      <img  class='h-auto w-75' src="../image/photoServices.svg" />
+      <img  class='service-image' src="../image/photoServices.svg" />
     </div>
 
 </section>
 
-<section class="d-flex flex-column  text-right p-5 servicesDiv2" style="background-image:url('../image/backgroundServices.svg');  background-size: cover; height:auto">
+<section class="d-flex flex-column  text-right p-5 mt-5 servicesDiv2" style="background-image:url('../image/backgroundServices.svg');  background-size: cover; height:auto">
 <h1>الخدمات المقدمة والغير مقدمة من بالعدل</h1>
 <div class="col-6 p-5 divServicesNow">
     <p>
@@ -126,13 +126,13 @@
 </div>
 </section>
 
-<section class="text-right  servicesDiv3 d-flex justify-content-evenly p-5">
-<div class="col-5 divAboutUs">
-      <img  class='h-auto w-75' src="../image/servicesSections.svg" />
+<section class="text-right  servicesDiv3 d-flex p-5">
+<div class="col-6 divAboutUs">
+      <img  class='service-image-2' src="../image/servicesSections.svg" />
     </div>
     <div class="col-6 divServicesHow ">
-    <h3 class="font-weight-bold">كيف تقدم الخدمة؟</h3>
-    <ul class="list-unstyled pt-3">
+    <h3 class="font-weight-bold"> <u class=" undellineHome">كيف</u> تقدم الخدمة؟</h3>
+    <ul class="list-unstyled pt-1">
         <li><img  class='pl-3' src="../image/point05.svg" /> 
         يتمتع الأعضاء بإمكانية الوصول المستمر إلى شبكة بالعدل الداخلية، والتي توفر المساعدة القانونية عبر الإنترنت أو عبر البريد الإلكتروني خلال ساعات العمل والمساعدة القانونية وجهاً لوجه عند الحاجة.
         </li>
@@ -147,7 +147,7 @@
         </li>
     </ul>
     <div class="d-flex justify-content-right divServicesNow">
-    <button class="btn btn-lg col-s-12 bg-dark font-weight-bold text-light datepicker mt-5 text-center w-25 ">اشترك الآن</button>
+    <button class="btn btn-lg col-s-12 bg-dark font-weight-bold text-light datepicker mt-1  text-center w-50 ">اشترك الآن</button>
   </div>
     </div>
 
@@ -156,7 +156,7 @@
 
 <section class="text-right  servicesDiv d-flex justify-content-evenly p-5">
     <div class="col-6 divServicesHow d-flex justify-content-center flex-column">
-    <h3 class="font-weight-bold">ماذا يحصل عندما يتم تحويلك الى المحامي؟ </h3>
+    <h3 class="font-weight-bold"><u class=" undellineHome">ماذا ي</u>حصل عندما يتم تحويلك الى المحامي؟ </h3>
     <p>
     سوف يتم مراجعة الملف وتقييم حالتكم القانونية وتقديم النصيحة القانونية. إذا تم الاتفاق مع بالعدل من العميل لاستكمال الإجراءات القانونية الخاصة بهم، سوف يتم تحويل الملف الى محامي مختص لمتابعة الإجراءات. تتم هذه الإجراءات كالتالي:
     </p>
@@ -169,13 +169,13 @@
         </li>
     </ul>
     </div>
-    <div class="col-5 divAboutUs">
-      <img  class='h-auto w-75' src="../image/WhatSerrvices.svg" />
+    <div class="col-6 divAboutUs">
+      <img  class='service-image-3' src="../image/WhatSerrvices.svg" />
     </div>
 </section>
 
 
-<section class="col-7 text-right p-5 divServicesNow">
+<section class="col-8 text-right p-5 divServicesNow">
    <h3 class="font-weight-bold">فترة الانتظار لمدة 3 أشهر</h3>
    <p>
    لديك فترة انتظار لمدة 3 أشهر من تاريخ دفع قسطك الأول قبل أن تدفع بالعدل النفقات القانونية وسوف نغطي فقط المسائل القانونية التي نشأت بعد فترة الانتظار لمدة 3 أشهر. ومع ذلك، يمكن لك الوصول الفوري إلى بالعدل والخط القانوني على مدار 24 ساعة.
@@ -203,7 +203,7 @@
           تمنحك خطة العضوية هذه مساعدة قانونية على مدار 24/7
           و 365 يومًا في السنة ، عبر خط المساعدة القانوني لدينا.</Li>
         <Li class="pt-4"><img  class='' src="../image/point05.svg" />المساعدة القانونية عبر الإنترنت خلال ساعات العمل.</Li>
-        <Li class="pt-4">قراءة المزيد <img  class='' src="../image/readmore.svg" /> </Li>
+        <Li onclick="window.location.href='/pages/GoldMembership.php'" class="pt-4 c-pointer">قراءة المزيد <img class='' src="/image/readmore.svg" /> </Li>
       </ul>
       </div>
       <div class="text-right">
@@ -225,7 +225,7 @@
         جميع الخدمات وكل شيء آخر تقدمه العضوية الذهبية</Li>
         <Li class="pt-4"><img  class='' src="../image/point05.svg" />
         المساعدة القانونية على مدار 7/24 علي مدار 365 يوم عبر خطنا القانوني       </Li>
-        <Li class="pt-4">قراءة المزيد <img  class='' src="../image/readmore.svg" /> </Li>
+        <Li onclick="window.location.href='/pages/GoldMembershipplus.php'" class="pt-4 c-pointer">قراءة المزيد <img class='' src="/image/readmore.svg" /> </Li>
       </ul>
       </div>
       <div class="text-right">

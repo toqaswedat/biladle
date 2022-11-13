@@ -5,7 +5,7 @@
     <small class="text-warning">49.00</small>
     <small>ريال/شهر</small> </h1>
 </div>
-<div class="text-right p-3 memberShipDiv">
+<div class="text-right col-8 p-5 memberShipDiv">
     <p class="">
     تمنحك هذه العضوية (الذهبية) المساعدة القانونية على مدار 24 ساعة من خلال خط المساعدة القانوني لدينا، 7 أيام في الأسبوع و365 يومًا في السنة، بالإضافة إلىالمساعدة القانونية عبر الإنترنت خلال ساعات العمل
     </p>
@@ -57,7 +57,7 @@
     <button class="btn btn-lg bg-black text-light ml-4">
     اشترك الآن
     </button>
-    <button class="btn btn-lg border border-dark rounded">
+    <button  onclick="window.location.href='/index.php'" class="btn btn-lg border border-dark rounded">
     رجوع
     </button>
 </div>
